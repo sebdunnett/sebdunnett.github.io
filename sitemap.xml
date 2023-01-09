@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sebdunnett.github.io/about.html</loc>
-    <lastmod>2023-01-09T15:08:28.766Z</lastmod>
+    <lastmod>2023-01-09T20:51:36.784Z</lastmod>
   </url>
   <url>
     <loc>https://sebdunnett.github.io/index.html</loc>
-    <lastmod>2023-01-09T15:08:30.098Z</lastmod>
+    <lastmod>2023-01-09T20:51:37.069Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sebdunnett.github.io/publications.html</loc>
+    <lastmod>2023-01-09T20:51:37.408Z</lastmod>
   </url>
 </urlset>
