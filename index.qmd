@@ -2,11 +2,17 @@
 title: "Sebastian Dunnett, PhD"
 about:
   #jolla,trestles,solana,marquee,broadside
-  template: jolla
+  template: trestles
   image: images/headshot.jpeg
   links: 
     - icon: twitter
       href: https://twitter.com/sebdunnett
+    - icon: linkedin
+      href: https://www.linkedin.com/in/sebastiandunnett/
+    - icon: github
+      href: https://github.com/sebdunnett
+    - icon: mailbox2
+      href: mailto:sebdunnett@gmail.com
 ---
 
 Seb Dunnett is a nature scientist and IPBES biodiversity expert with a PhD in global environmental change and ten years' experience helping organisations deliver sustainability objectives. Currently working to ensure businesses contribute to global biodiversity goals.

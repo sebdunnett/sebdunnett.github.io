@@ -1,9 +1,11 @@
 ---
 title: "Publications"
 bibliography: pubs.bib
----
-
----
 nocite: |
   @*
+filters:
+  - dociteproc.lua
+  - boldname.lua
+citeproc: false
+csl: https://www.zotero.org/styles/apa
 ---
