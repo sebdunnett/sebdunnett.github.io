@@ -2,8 +2,8 @@
 title: "Sebastian Dunnett, PhD"
 about:
   #jolla,trestles,solana,marquee,broadside
-  template: trestles
-  image: images/headshot.jpeg
+  template: marquee
+  image: images/profile.jpg
   links: 
     - icon: twitter
       href: https://twitter.com/sebdunnett
