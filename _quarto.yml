@@ -7,14 +7,16 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: posts.qmd
+        text: My Blog
       - href: publications.qmd
         text: Publications
+      - icon: twitter
+        href: https://twitter.com/sebdunnett
 
 format:
   html:
     theme: simplex
     css: styles.css
     toc: true
-
-editor: visual
 
