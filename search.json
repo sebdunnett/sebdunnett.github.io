@@ -9,28 +9,42 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Sebastian Dunnett, PhD",
+    "title": "",
     "section": "",
     "text": "Seb Dunnett is a nature scientist and IPBES biodiversity expert with a PhD in global environmental change and ten years’ experience helping organisations deliver sustainability objectives. Currently working to ensure businesses contribute to global biodiversity goals."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Sebastian Dunnett, PhD",
+    "title": "",
     "section": "Education",
     "text": "Education\nUniversity of Southampton | Southampton, UK\nPhD in Global Environmental Change | 2016 - 2020\nImperial College London | London, UK\nMSc in Environmental Technology | 2011 - 2012\nUniversity of Cambridge | Cambridge, UK\nBA in Natural Sciences | 2008 - 2011"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "Sebastian Dunnett, PhD",
+    "title": "",
     "section": "Experience",
     "text": "Experience\nIPBES | Bonn, Germany\nFellow, Nexus Assessment | 2022 -\nUNEP-WCMC | Cambridge, UK\nSenior Programme Officer, Nature Economy | 2022 -\nLondon Borough of Hammersmith and Fulham | London, UK\nEcology Lead - Climate Emergency | 2020 - 2022\nUNEP-WCMC | Cambridge, UK\nProgramme Officer, Business and Biodiversity | 2014-2016\nCBRE | London, UK\nEnergy and Sustainability Analyst | 2014\nBest Foot Forward | Oxford, UK\nResearcher | 2012-2014"
   },
   {
+    "objectID": "posts/2023-02-05-my-first-post/index.html",
+    "href": "posts/2023-02-05-my-first-post/index.html",
+    "title": "My first post",
+    "section": "",
+    "text": "Probelm\nI had a problem in raster.\n\n\nSolution\nThis is what I did.\n\n\n\n\nCitationBibTeX citation:@online{dunnett2023,\n  author = {Seb Dunnett},\n  title = {My First Post},\n  date = {2023-05-02},\n  url = {https://sebdunnett.github.io/posts/2023-02-05-my-first-post/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSeb Dunnett. 2023. “My First Post.” May 2, 2023. https://sebdunnett.github.io/posts/2023-02-05-my-first-post/."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "My first post\n\n\n\nR\n\n\nraster\n\n\n\nIsn’t this an exciting development?\n\n\n\nSeb Dunnett\n\n\nMay 2, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "publications.html",
     "href": "publications.html",
-    "title": "Publications",
+    "title": "",
     "section": "",
     "text": "Delafield, G., Donnison, C., Roddis, P., Arvanitopoulos, T., Sfyridis, A., Dunnett, S., Ball, T., & Logan, K. G. (2021). Conceptual framework for balancing society and nature in net-zero energy transitions. Environmental Science & Policy, 125, 189–201. https://doi.org/10.1016/j.envsci.2021.08.021\n\n\nDunnett, S. (2020). Assessing potential spatial trade-offs between renewable energy expansion and biodiversity conservation [PhD thesis, University of Southampton]. https://eprints.soton.ac.uk/446664/\n\n\nDunnett, S. (2012). Can biodiversity offsetting follow in carbon’s footprints? [Master's thesis]. Imperial College London.\n\n\nDunnett, S., Holland, R. A., Taylor, G., & Eigenbrod, F. (2022a). Predicted wind and solar energy expansion has minimal overlap with multiple conservation priorities across global regions. Proceedings of the National Academy of Sciences, 119(6). https://doi.org/10.1073/pnas.2104764119\n\n\nDunnett, S., Holland, R. A., Taylor, G., & Eigenbrod, F. (2022b). Reply to Pérez-García et al.: Perfect is the enemy of good. Proceedings of the National Academy of Sciences, 119(33), e2206500119. https://doi.org/10.1073/pnas.2206500119\n\n\nDunnett, S., Holland, R. A., Taylor, G., & Eigenbrod, F. (2022c). Reply to Niebuhr et al.: Infrastructure impacts must always be assessed locally. Proceedings of the National Academy of Sciences, 119(48), e2214469119. https://doi.org/10.1073/pnas.2214469119\n\n\nDunnett, S., Sorichetta, A., Taylor, G., & Eigenbrod, F. (2020). Harmonised global datasets of wind and solar farm locations and power. Scientific Data, 7(130). https://doi.org/10.1038/s41597-020-0469-8\n\n\nEigenbrod, F., Beckmann, M., Dunnett, S., Graham, L., Holland, R. A., Meyfroidt, P., Seppelt, R., Song, X.-P., Spake, R., Václavík, T., & Verburg, P. H. (2020). Identifying agricultural frontiers for modeling global cropland expansion. One Earth, 3(4), 504–514. https://doi.org/10.1016/j.oneear.2020.09.006"
   }
