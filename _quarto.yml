@@ -2,8 +2,9 @@ project:
   type: website
 
 website:
-  title: "Sebastian Dunnett, PhD"
   navbar:
+    favicon: images/favicon.ico
+    logo: images/sd.png
     left:
       - href: index.qmd
         text: Home
@@ -13,10 +14,17 @@ website:
         text: Publications
       - icon: twitter
         href: https://twitter.com/sebdunnett
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sebastiandunnett/
+      - icon: github
+        href: https://github.com/sebdunnett
+      - icon: mailbox2
+        href: mailto:sebdunnett@gmail.com
 
 format:
   html:
-    theme: simplex
-    css: styles.css
+    theme:
+    - simplex
+    - styles.css
     toc: true
 
