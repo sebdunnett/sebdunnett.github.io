@@ -2,8 +2,9 @@ project:
   type: website
 
 website:
+  title: Sebastian Dunnett, PhD
   navbar:
-    favicon: images/favicon.ico
+    favicon: images/favicon-32x32.png
     logo: images/sd.png
     left:
       - href: index.qmd
@@ -24,7 +25,7 @@ website:
 format:
   html:
     theme:
-    - simplex
+    - materia
     - styles.css
     toc: true
 
