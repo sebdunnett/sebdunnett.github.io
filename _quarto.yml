@@ -2,10 +2,9 @@ project:
   type: website
 
 website:
-  title: Sebastian Dunnett, PhD
   navbar:
     favicon: images/favicon-32x32.png
-    logo: images/sd.png
+    logo: images/sd.svg
     left:
       - href: index.qmd
         text: Home
@@ -19,13 +18,14 @@ website:
         href: https://www.linkedin.com/in/sebastiandunnett/
       - icon: github
         href: https://github.com/sebdunnett
-      - icon: mailbox2
+      - icon: envelope
         href: mailto:sebdunnett@gmail.com
 
 format:
   html:
     theme:
     - materia
-    - styles.css
+    - styles.scss
+    mainfont: Mulish
     toc: true
 

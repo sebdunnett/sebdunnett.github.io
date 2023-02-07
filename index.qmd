@@ -1,4 +1,5 @@
 ---
+title: Sebastian Dunnett, PhD
 about:
   #jolla,trestles,solana,marquee,broadside
   template: marquee
