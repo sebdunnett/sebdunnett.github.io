@@ -2,8 +2,8 @@ project:
   type: website
 
 website:
+  favicon: images/favicon-32x32.png
   navbar:
-    favicon: images/favicon-32x32.png
     logo: images/sd.svg
     left:
       - href: index.qmd
