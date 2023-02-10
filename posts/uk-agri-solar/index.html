@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2023-02-07">
 <meta name="description" content="Why pitting solar against food production is a red herring">
 
-<title>UK solar versus agricultural production | Sebastian Dunnett</title>
+<title>UK solar versus agricultural production | Sebastian Dunnett, PhD</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,6 +108,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -142,7 +144,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <img src="../../images/sd.svg" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Sebastian Dunnett</span>
+    <span class="navbar-title">Sebastian Dunnett, PhD</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -162,6 +164,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <a class="nav-link" href="../../publications.html">
  <span class="menu-text">Publications</span></a>
   </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/sebdunnett"><i class="bi bi-twitter" role="img">
 </i> 
@@ -243,8 +247,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#agricultural-grading" id="toc-agricultural-grading" class="nav-link active" data-scroll-target="#agricultural-grading">Agricultural grading</a></li>
-  <li><a href="#solution" id="toc-solution" class="nav-link" data-scroll-target="#solution">Solution</a></li>
+  <li><a href="#solar-in-the-uk" id="toc-solar-in-the-uk" class="nav-link active" data-scroll-target="#solar-in-the-uk">Solar in the UK</a></li>
+  <li><a href="#agricultural-grading" id="toc-agricultural-grading" class="nav-link" data-scroll-target="#agricultural-grading">Agricultural grading</a></li>
   </ul>
 </nav>
     </div>
@@ -254,28 +258,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-<p>Reviving an old Twitter thread. If you want to check out the original thread, and its total lack of engagement, it’s <a href="https://twitter.com/sebdunnett/status/1579782734406643712">here</a>.</p>
-<p>You might have seen the UK government <a href="https://www.theguardian.com/environment/2022/oct/10/ministers-hope-to-ban-solar-projects-from-most-english-farms">plans to tighten restrictions for field solar on farmland</a>. Most commentators I’ve seen use non-spatial figures so I decided to dive into the spatial data to answer the question: has the government “fixed” a non-existent problem?</p>
-<section id="agricultural-grading" class="level1">
-<h1>Agricultural grading</h1>
-<p>So here’s the crux of the issue: agricultural land classification. 1 is best, 5 is worst. In practice, 3 is split into 3a and 3b, but I’m using data from Natural England that annoyingly doesn’t split 3 so we’ll have to make do.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="solar_farm.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Solar farm in England. Photo by <a href="https://unsplash.com/@redzeppelin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Red Zeppelin</a> on <a href="https://unsplash.com/photos/UVGE-o757-g?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption><p></p>
-</figure>
-</div>
-</section>
-<section id="solution" class="level1">
-<h1>Solution</h1>
-<p>This is what I did.</p>
-<div class="cell" data-hash="index_cache/html/unnamed-chunk-1_fb8cc0f022833bcf977cd44a3495ac41">
-<details>
-<summary>Take a peek</summary>
+<p>Reviving an old Twitter thread to expedite my first ever blog contribution; as a lifelong environmentalist, I’m a fan of recycling. If you want to check out the original thread, and its total lack of engagement, it’s <a href="https://twitter.com/sebdunnett/status/1579782734406643712">here</a>.</p>
+<p>You might have seen the UK government <a href="https://www.theguardian.com/environment/2022/oct/10/ministers-hope-to-ban-solar-projects-from-most-english-farms">plans to tighten restrictions for field solar on farmland</a> back in October last year. Most commentators I’ve seen use non-spatial figures so I decided to dive into the spatial data to answer the question: has the government “fixed” a non-existent problem?</p>
+<div class="cell">
+<details open="">
+<summary>Show/hide code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(pacman,<span class="at">quietly =</span> <span class="cn">TRUE</span>)) <span class="fu">install.packages</span>(<span class="st">'pacman'</span>)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(pacman)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(tidyverse,sf,scico,spatstat)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(tidyverse,sf,scico,scales)</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># always a useful function to include</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="st">`</span><span class="at">%ni%</span><span class="st">`</span> <span class="ot">&lt;-</span> <span class="fu">Negate</span>(<span class="st">`</span><span class="at">%in%</span><span class="st">`</span>)</span>
@@ -286,56 +277,76 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># UK &amp; Eng boundaries</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>uk <span class="ot">=</span> <span class="fu">st_read</span>(<span class="st">"data/uk.json"</span>, <span class="at">quiet=</span><span class="cn">TRUE</span>) <span class="sc">%&gt;%</span></span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  st_make_valid</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>eng <span class="ot">=</span> <span class="fu">st_read</span>(<span class="st">"data/eng.geojson"</span>, <span class="at">quiet=</span><span class="cn">TRUE</span>)</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># polygons from Stowell et al</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>solar <span class="ot">=</span> <span class="fu">st_read</span>(<span class="st">"data/ukpvgeo_geometries.geojson"</span>, <span class="at">quiet=</span><span class="cn">TRUE</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">st_transform</span>(prj)</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>solar_poly_area_km2 <span class="ot">=</span> <span class="fu">sum</span>(<span class="fu">st_area</span>(solar)) <span class="sc">%&gt;%</span> units<span class="sc">::</span><span class="fu">set_units</span>(km2)</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co"># points from Stowell et al</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>solar_pts <span class="ot">=</span> <span class="fu">read.csv</span>(<span class="st">"data/ukpvgeo_points.csv"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(latitude,longitude) <span class="sc">%&gt;%</span></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">st_as_sf</span>(<span class="at">coords=</span><span class="fu">c</span>(<span class="st">"longitude"</span>,<span class="st">"latitude"</span>),<span class="at">crs=</span><span class="dv">4326</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">st_transform</span>(<span class="dv">27700</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(located <span class="sc">%ni%</span> <span class="fu">c</span>(<span class="st">"roof"</span>,<span class="st">"rood"</span>,<span class="st">"roof`"</span>,<span class="st">"root"</span>)) <span class="co"># couple of spelling mistakes in the data</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>solar_uk_area_km2 <span class="ot">=</span> <span class="fu">sum</span>(solar_pts<span class="sc">$</span>area_sqm,<span class="at">na.rm=</span>T) <span class="sc">%&gt;%</span> units<span class="sc">::</span><span class="fu">set_units</span>(m2) <span class="sc">%&gt;%</span> units<span class="sc">::</span><span class="fu">set_units</span>(km2)</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>solar_uk_pct <span class="ot">=</span> solar_uk_area_km2<span class="sc">/</span>(<span class="fu">sum</span>(<span class="fu">st_area</span>(uk)) <span class="sc">%&gt;%</span> units<span class="sc">::</span><span class="fu">set_units</span>(km2))</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="co"># agri land classification from NE</span></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>alc <span class="ot">=</span> <span class="fu">st_read</span>(<span class="st">"data/Provisional_Agricultural_Land_Classification_(ALC)_(England).geojson"</span>,</span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>              <span class="at">quiet=</span><span class="cn">TRUE</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">st_transform</span>(<span class="dv">27700</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(ALC_GRADE<span class="sc">!=</span><span class="st">"Exclusion"</span>)</span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>alc<span class="sc">$</span>AREA <span class="ot">&lt;-</span> <span class="fu">st_area</span>(alc)</span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="co"># summarise by grade</span></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>alc_summary <span class="ot">=</span> <span class="fu">st_drop_geometry</span>(alc) <span class="sc">%&gt;%</span> </span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(ALC_GRADE) <span class="sc">%&gt;%</span> </span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">total_area_sqm =</span> <span class="fu">sum</span>(AREA,<span class="at">na.rm =</span> T)) <span class="sc">%&gt;%</span> </span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">prop =</span> total_area_sqm<span class="sc">/</span><span class="fu">sum</span>(total_area_sqm))</span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="co"># palette for alc plot</span></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>alc_pal <span class="ot">=</span> <span class="fu">c</span>(<span class="fu">scico</span>(<span class="at">n=</span><span class="dv">5</span>,<span class="at">palette=</span><span class="st">"bamako"</span>,<span class="at">direction =</span> <span class="dv">1</span>),<span class="st">"lightblue"</span>,<span class="st">"darkgray"</span>)</span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(alc <span class="sc">%&gt;%</span> <span class="fu">filter</span>(ALC_GRADE<span class="sc">!=</span><span class="st">"Exclusion"</span>)) <span class="sc">+</span></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="fu">aes</span>(<span class="at">fill=</span>ALC_GRADE),<span class="at">col=</span><span class="cn">NA</span>) <span class="sc">+</span></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>  cowplot<span class="sc">::</span><span class="fu">theme_map</span>() <span class="sc">+</span></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">name=</span><span class="st">"Agricultural grade"</span>,<span class="at">values =</span> alc_pal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>eng <span class="ot">=</span> <span class="fu">st_read</span>(<span class="st">"data/eng.geojson"</span>, <span class="at">quiet=</span><span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<section id="solar-in-the-uk" class="level1">
+<h1>Solar in the UK</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="solar_farm.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Solar farm in England. Photo by <a href="https://unsplash.com/@redzeppelin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Red Zeppelin</a> on <a href="https://unsplash.com/photos/UVGE-o757-g?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption><p></p>
+</figure>
+</div>
+<p>Firstly, we need data for solar locations. Back in 2016 when I started my PhD, there were very little spatial data for renewable energy – one of the drivers for my <a href="https://doi.org/10.1038/s41597-020-0469-8">first paper</a>; thankfully it’s not as bad now. I used data from a study that took a similar approach to ours, but with a much more detailed focus on the UK.</p>
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-2_7ffdd1eac622da06331aa4f50320b45b">
+<details>
+<summary>Show/hide code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># polygons from Stowell et al</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>solar <span class="ot">=</span> <span class="fu">st_read</span>(<span class="st">"data/ukpvgeo_geometries.geojson"</span>, <span class="at">quiet=</span><span class="cn">TRUE</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">st_transform</span>(prj)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>solar_poly_area_km2 <span class="ot">=</span> <span class="fu">sum</span>(<span class="fu">st_area</span>(solar)) <span class="sc">%&gt;%</span> units<span class="sc">::</span><span class="fu">set_units</span>(km2)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># points from Stowell et al</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>solar_pts <span class="ot">=</span> <span class="fu">read.csv</span>(<span class="st">"data/ukpvgeo_points.csv"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(latitude,longitude) <span class="sc">%&gt;%</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">st_as_sf</span>(<span class="at">coords=</span><span class="fu">c</span>(<span class="st">"longitude"</span>,<span class="st">"latitude"</span>),<span class="at">crs=</span><span class="dv">4326</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">st_transform</span>(<span class="dv">27700</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(located <span class="sc">%ni%</span> <span class="fu">c</span>(<span class="st">"roof"</span>,<span class="st">"rood"</span>,<span class="st">"roof`"</span>,<span class="st">"root"</span>)) <span class="co"># couple of spelling mistakes in the data</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>solar_uk_area_km2 <span class="ot">=</span> <span class="fu">sum</span>(solar_pts<span class="sc">$</span>area_sqm,<span class="at">na.rm=</span>T) <span class="sc">%&gt;%</span> units<span class="sc">::</span><span class="fu">set_units</span>(m2) <span class="sc">%&gt;%</span> units<span class="sc">::</span><span class="fu">set_units</span>(km2)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>solar_uk_pct <span class="ot">=</span> solar_uk_area_km2<span class="sc">/</span>(<span class="fu">sum</span>(<span class="fu">st_area</span>(uk)) <span class="sc">%&gt;%</span> units<span class="sc">::</span><span class="fu">set_units</span>(km2))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Stowell <em>et al.</em> produced point data with area as an attribute, as well as polygons; the difference between the two was only 2.9. I ended up using areas calculated from the polygons. This gave the percentage of land used for solar in the UK as a whopping <em>0.097%</em>.</p>
+</section>
+<section id="agricultural-grading" class="level1">
+<h1>Agricultural grading</h1>
+<p>So here’s the crux of the issue: agricultural land classification. 1 is best, 5 is worst. In practice, 3 is split into 3a and 3b, but I’m using data from Natural England that annoyingly doesn’t split 3 so we’ll have to make do.</p>
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-3_0e99a4379ed431f5160b43eb0d399ecc">
+<details open="">
+<summary>Show/hide code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>alc <span class="ot">=</span> <span class="fu">st_read</span>(<span class="st">"data/Provisional_Agricultural_Land_Classification_(ALC)_(England).geojson"</span>,</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>              <span class="at">quiet=</span><span class="cn">TRUE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">st_transform</span>(<span class="dv">27700</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(ALC_GRADE<span class="sc">!=</span><span class="st">"Exclusion"</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>alc<span class="sc">$</span>AREA <span class="ot">&lt;-</span> <span class="fu">st_area</span>(alc)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co"># summarise by grade</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>alc_summary <span class="ot">=</span> <span class="fu">st_drop_geometry</span>(alc) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(ALC_GRADE) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">total_area_sqm =</span> <span class="fu">sum</span>(AREA,<span class="at">na.rm =</span> T)) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">prop =</span> total_area_sqm<span class="sc">/</span><span class="fu">sum</span>(total_area_sqm))</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># palette for alc plot</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>alc_pal <span class="ot">=</span> <span class="fu">c</span>(<span class="fu">scico</span>(<span class="at">n=</span><span class="dv">5</span>,<span class="at">palette=</span><span class="st">"bamako"</span>,<span class="at">direction =</span> <span class="dv">1</span>),<span class="st">"lightblue"</span>,<span class="st">"darkgray"</span>)</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(alc <span class="sc">%&gt;%</span> <span class="fu">filter</span>(ALC_GRADE<span class="sc">!=</span><span class="st">"Exclusion"</span>)) <span class="sc">+</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="fu">aes</span>(<span class="at">fill=</span>ALC_GRADE),<span class="at">col=</span><span class="cn">NA</span>) <span class="sc">+</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>  cowplot<span class="sc">::</span><span class="fu">theme_map</span>() <span class="sc">+</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">name=</span><span class="st">"Agricultural grade"</span>,<span class="at">values =</span> alc_pal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
 <p></p><figcaption class="figure-caption">Distribution of agricultural land classification grades in England.</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
-<p>The difference between Stowell et al.’s points and polygons is only 2.9013276</p>
 
 
 </section>
@@ -600,6 +611,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center"><span class="faux-block"><i class="fa-brands fa-creative-commons" title="copyright" aria-label="creative-commons"></i> 2023 Sebastian Dunnett</span></div>
+  </div>
+</footer>
 
 
 
