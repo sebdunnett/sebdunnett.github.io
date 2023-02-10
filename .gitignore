@@ -7,3 +7,6 @@
 /images/
 /resources/
 /_freeze/
+**/index_cache/
+**/index_files/
+**/data/
