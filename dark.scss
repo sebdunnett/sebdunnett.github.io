@@ -1,0 +1,48 @@
+/*-- scss:defaults --*/
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+// Colors
+$navy-green: #283618;
+$sage-green: #606C38;
+$soft-yellow: #FEFAE0;
+$light-tan: #DDA15E;
+$tan: #BC6C25;
+$red: #bc4749;
+
+// Nav Bar
+$navbar-bg: $navy-green;
+$navbar-fg: $soft-yellow;
+$navbar-hl: $tan;
+
+// Body colors
+$body-bg: $navy-green;
+$body-color: $soft-yellow;
+$link-color: $red;
+
+
+.about-link-text { // button text size
+  color: $soft-yellow;
+}
+
+.about-links .bi.bi { // button text size
+  color: $soft-yellow;
+}
+
+.about-link:hover i.bi.bi, 
+.about-link:hover .about-link-text {
+  color: $tan;
+}
+
+.quarto-title-block .quarto-title-banner {
+  background: $sage-green;
+}
+
+a.quarto-grid-link {
+  color: $navy-green;
+}
+
+.quarto-grid-item.card-left.card {
+  background-color: $soft-yellow;
+}

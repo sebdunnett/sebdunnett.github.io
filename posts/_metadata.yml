@@ -5,3 +5,11 @@ freeze: true
 
 # enable banner style title blocks (see https://quarto.org/docs/authoring/title-blocks.html)
 title-block-banner: true
+
+format:
+ html:
+   code-fold: true
+   code-summary: "Take a peek"
+   code-block-border-left: "#bc4749"
+   code-block-bg: "transparent"
+   highlight-style: solarized

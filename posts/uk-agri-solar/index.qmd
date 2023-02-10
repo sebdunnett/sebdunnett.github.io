@@ -1,0 +1,88 @@
+---
+title: "UK solar versus agricultural production"
+description: "Why pitting solar against food production is a red herring"
+author:
+  - name: Seb Dunnett
+    url: https://sebdunnett.github.io/
+    orcid: 0000-0002-5300-3075
+date: "2023-02-07"
+categories: [solar, agriculture, energy, spatial] # self-defined categories
+citation: 
+  url: https://sebdunnett.github.io/posts/uk-agri-solar/
+draft: false
+image: solar_farm.jpg
+---
+
+Reviving an old Twitter thread. If you want to check out the original thread, and its total lack of engagement, it's [here](https://twitter.com/sebdunnett/status/1579782734406643712).
+
+You might have seen the UK government [plans to tighten restrictions for field solar on farmland](https://www.theguardian.com/environment/2022/oct/10/ministers-hope-to-ban-solar-projects-from-most-english-farms). Most commentators I've seen use non-spatial figures so I decided to dive into the spatial data to answer the question: has the government "fixed" a non-existent problem?
+
+# Agricultural grading
+
+So here's the crux of the issue: agricultural land classification. 1 is best, 5 is worst. In practice, 3 is split into 3a and 3b, but I'm using data from Natural England that annoyingly doesn't split 3 so we'll have to make do.
+
+![Solar farm in England. Photo by [Red Zeppelin](https://unsplash.com/@redzeppelin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/UVGE-o757-g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)](solar_farm.jpg)
+
+# Solution
+
+This is what I did.
+
+```{r}
+#| warning: false
+#| cache: true
+#| fig-cap: Distribution of agricultural land classification grades in England.
+if (!require(pacman)) install.packages('pacman')
+library(pacman)
+pacman::p_load(tidyverse,sf,scico,spatstat)
+
+# always a useful function to include
+`%ni%` <- Negate(`%in%`)
+
+# British National Grid
+prj = st_crs(27700)
+
+# UK & Eng boundaries
+uk = st_read("data/uk.json", quiet=TRUE) %>%
+  st_make_valid
+eng = st_read("data/eng.geojson", quiet=TRUE)
+
+# polygons from Stowell et al
+solar = st_read("data/ukpvgeo_geometries.geojson", quiet=TRUE) %>% 
+  st_transform(prj)
+
+solar_poly_area_km2 = sum(st_area(solar)) %>% units::set_units(km2)
+
+# points from Stowell et al
+solar_pts = read.csv("data/ukpvgeo_points.csv") %>%
+  drop_na(latitude,longitude) %>%
+  st_as_sf(coords=c("longitude","latitude"),crs=4326) %>%
+  st_transform(27700) %>% 
+  filter(located %ni% c("roof","rood","roof`","root")) # couple of spelling mistakes in the data
+
+solar_uk_area_km2 = sum(solar_pts$area_sqm,na.rm=T) %>% units::set_units(m2) %>% units::set_units(km2)
+solar_uk_pct = solar_uk_area_km2/(sum(st_area(uk)) %>% units::set_units(km2))
+
+# agri land classification from NE
+alc = st_read("data/Provisional_Agricultural_Land_Classification_(ALC)_(England).geojson",
+              quiet=TRUE) %>%
+  st_transform(27700) %>% 
+  filter(ALC_GRADE!="Exclusion")
+
+alc$AREA <- st_area(alc)
+
+# summarise by grade
+alc_summary = st_drop_geometry(alc) %>% 
+  group_by(ALC_GRADE) %>% 
+  summarise(total_area_sqm = sum(AREA,na.rm = T)) %>% 
+  mutate(prop = total_area_sqm/sum(total_area_sqm))
+
+# palette for alc plot
+alc_pal = c(scico(n=5,palette="bamako",direction = 1),"lightblue","darkgray")
+
+ggplot(alc %>% filter(ALC_GRADE!="Exclusion")) +
+  geom_sf(aes(fill=ALC_GRADE),col=NA) +
+  cowplot::theme_map() +
+  scale_fill_manual(name="Agricultural grade",values = alc_pal)
+```
+
+The difference between Stowell et al.'s points and polygons is only `r abs(solar_uk_area_km2-solar_poly_area_km2)`

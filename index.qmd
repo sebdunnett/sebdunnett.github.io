@@ -1,5 +1,7 @@
 ---
-title: Sebastian Dunnett, PhD
+title: Welcome!
+pagetitle: "About | Sebastian Dunnett"
+title-block-banner: true
 about:
   #jolla,trestles,solana,marquee,broadside
   template: marquee
@@ -18,13 +20,16 @@ about:
   - icon: envelope 
     text: Email
     href: mailto:sebdunnett@gmail.com
+format:
+  html:
+    page-layout: full
 ---
 
-Seb Dunnett is a nature scientist and IPBES biodiversity expert with a PhD in global environmental change and ten years' experience helping organisations deliver sustainability objectives. Currently working to ensure businesses contribute to global biodiversity goals.
+Seb Dunnett is a nature scientist and IPBES biodiversity expert with a PhD in global environmental change and ten years' experience helping organisations deliver sustainability objectives. Seb is currently working to ensure businesses contribute to global biodiversity goals.
 
 
 
-<!--## Education
+## Education
 
 **University of Southampton** \| Southampton, UK\
 PhD in Global Environmental Change \| 2016 - 2020
@@ -53,4 +58,4 @@ Programme Officer, Business and Biodiversity \| 2014-2016
 Energy and Sustainability Analyst \| 2014
 
 **Best Foot Forward** \| Oxford, UK\
-Researcher \| 2012-2014-->
+Researcher \| 2012-2014

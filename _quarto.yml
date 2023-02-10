@@ -1,15 +1,18 @@
 project:
   type: website
 
+pagetitle: "{{< meta title >}} | {{< meta website.title >}}"
+
 website:
-  favicon: images/favicon-32x32.png
+  title: Sebastian Dunnett
+  favicon: images/favicon.png
   navbar:
     logo: images/sd.svg
     left:
       - href: index.qmd
-        text: Home
+        text: About
       - href: posts.qmd
-        text: My Blog
+        text: Posts
       - href: publications.qmd
         text: Publications
       - icon: twitter
@@ -20,12 +23,15 @@ website:
         href: https://github.com/sebdunnett
       - icon: envelope
         href: mailto:sebdunnett@gmail.com
+      - href: resources/SDunnett_CV.pdf
+        text: CV
 
 format:
   html:
     theme:
-    - materia
-    - styles.scss
+      light: [materia,light.scss]
+      dark: dark.scss
+    #Lato,Mulish,Merriweather,Alegreya,Arvo,Josefin Slab,Poppins
     mainfont: Mulish
     toc: true
 
