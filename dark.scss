@@ -43,6 +43,27 @@ a.quarto-grid-link {
   color: $navy-green;
 }
 
+a.quarto-grid-link:hover {
+  color: $tan;
+}
+
 .quarto-grid-item.card-left.card {
-  background-color: $soft-yellow;
+  background-color: $sage-green;
+}
+
+.quarto-grid-item .listing-categories .listing-category {
+    color: $soft-yellow !important;
+    border: solid 1px $tan !important;
+}
+
+.quarto-grid-item .card-attribution{
+  color: $soft-yellow !important;
+}
+
+.panel-caption, .figure-caption, figcaption {
+    color: $tan !important;
+}
+
+body:not(.floating) .nav-footer {
+    border-top: none !important;
 }

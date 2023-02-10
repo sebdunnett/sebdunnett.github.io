@@ -25,37 +25,4 @@ format:
     page-layout: full
 ---
 
-Seb Dunnett is a nature scientist and IPBES biodiversity expert with a PhD in global environmental change and ten years' experience helping organisations deliver sustainability objectives. Seb is currently working to ensure businesses contribute to global biodiversity goals.
-
-
-
-## Education
-
-**University of Southampton** \| Southampton, UK\
-PhD in Global Environmental Change \| 2016 - 2020
-
-**Imperial College London** \| London, UK\
-MSc in Environmental Technology \| 2011 - 2012
-
-**University of Cambridge** \| Cambridge, UK\
-BA in Natural Sciences \| 2008 - 2011
-
-## Experience
-
-**IPBES** \| Bonn, Germany\
-Fellow, Nexus Assessment \| 2022 -
-
-**UNEP-WCMC** \| Cambridge, UK\
-Senior Programme Officer, Nature Economy \| 2022 -
-
-**London Borough of Hammersmith and Fulham** \| London, UK\
-Ecology Lead - Climate Emergency \| 2020 - 2022
-
-**UNEP-WCMC** \| Cambridge, UK\
-Programme Officer, Business and Biodiversity \| 2014-2016
-
-**CBRE** \| London, UK\
-Energy and Sustainability Analyst \| 2014
-
-**Best Foot Forward** \| Oxford, UK\
-Researcher \| 2012-2014
+Dr Seb Dunnett is a nature scientist and IPBES biodiversity expert with a PhD in global environmental change and significant experience helping organisations deliver sustainability objectives. Seb is currently working to ensure businesses contribute to global biodiversity goals, as well as advocating for nature in a just energy transition.

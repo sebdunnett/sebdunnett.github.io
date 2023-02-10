@@ -4,7 +4,7 @@ project:
 pagetitle: "{{< meta title >}} | {{< meta website.title >}}"
 
 website:
-  title: Sebastian Dunnett
+  title: Sebastian Dunnett, PhD
   favicon: images/favicon.png
   navbar:
     logo: images/sd.svg
@@ -15,6 +15,7 @@ website:
         text: Posts
       - href: publications.qmd
         text: Publications
+    right:
       - icon: twitter
         href: https://twitter.com/sebdunnett
       - icon: linkedin
@@ -25,13 +26,20 @@ website:
         href: mailto:sebdunnett@gmail.com
       - href: resources/SDunnett_CV.pdf
         text: CV
-
+  page-footer:
+    center: |
+      <span class="faux-block">{{< fa brands creative-commons title="copyright" >}} 2023 Sebastian Dunnett</span>
+      
 format:
   html:
     theme:
       light: light.scss
       dark: dark.scss
-    #Lato,Mulish,Merriweather,Alegreya,Arvo,Josefin Slab,Poppins
     mainfont: Mulish
     toc: true
+    code-fold: show
+    code-summary: "Show/hide code"
+    code-block-border-left: "#bc4749"
+    code-block-bg: "transparent"
+    highlight-style: solarized
 

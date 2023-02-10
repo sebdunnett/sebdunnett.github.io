@@ -20,11 +20,11 @@ Delafield, G., Donnison, C., Roddis, P., Arvanitopoulos, T., Sfyridis, A., **Dun
 
 Eigenbrod, F., Beckmann, M., **Dunnett, S.**, Graham, L., Holland, R. A., Meyfroidt, P., Seppelt, R., Song, X.-P., Spake, R., Václavík, T., & Verburg, P. H. (2020). Identifying agricultural frontiers for modeling global cropland expansion. *One Earth*, *3*(4), 504–514. [https://doi.org/10.1016/j.oneear.2020.09.006](https://doi.org/10.1016/j.oneear.2020.09.006)
 
-# Theses `r fontawesome::fa("graduation-cap", fill = "#283618", a11y = "sem")`
+# Theses {{< fa graduation-cap >}}
 
-**Dunnett, S.** (2020). *Assessing potential spatial trade-offs between renewable energy expansion and biodiversity conservation* [PhD thesis, University of Southampton]. [`r fontawesome::fa("file-pdf", fill = "#283618", a11y = "sem")`](https://eprints.soton.ac.uk/446664/1/SebastianDunnett_PhD_Thesis_Sep20.pdf)
+**Dunnett, S.** (2020). *Assessing potential spatial trade-offs between renewable energy expansion and biodiversity conservation* [PhD thesis, University of Southampton]. [{{< fa file-pdf title="pdf link" >}}](https://eprints.soton.ac.uk/446664/1/SebastianDunnett_PhD_Thesis_Sep20.pdf)
 
-**Dunnett, S.** (2012). *Can biodiversity offsetting follow in carbon’s footprints?* [Master's thesis]. Imperial College London. [`r fontawesome::fa("file-pdf", fill = "#283618", a11y = "sem")`](resources/SDunnett_CV.pdf)
+**Dunnett, S.** (2012). *Can biodiversity offsetting follow in carbon’s footprints?* [Master's thesis]. Imperial College London. [{{< fa file-pdf title="pdf link" >}}](resources/SDunnett_CV.pdf)
 
 
 
