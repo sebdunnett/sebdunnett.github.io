@@ -28,11 +28,10 @@ So here's the crux of the issue: agricultural land classification. 1 is best, 5 
 This is what I did.
 
 ```{r}
-#| warning: false
-#| cache: true
 #| fig-cap: Distribution of agricultural land classification grades in England.
 if (!require(pacman)) install.packages('pacman')
 library(pacman)
+
 pacman::p_load(tidyverse,sf,scico,spatstat)
 
 # always a useful function to include

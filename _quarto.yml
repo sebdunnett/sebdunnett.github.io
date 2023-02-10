@@ -29,7 +29,7 @@ website:
 format:
   html:
     theme:
-      light: [materia,light.scss]
+      light: light.scss
       dark: dark.scss
     #Lato,Mulish,Merriweather,Alegreya,Arvo,Josefin Slab,Poppins
     mainfont: Mulish
