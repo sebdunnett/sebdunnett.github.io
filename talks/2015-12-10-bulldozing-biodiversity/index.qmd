@@ -1,0 +1,29 @@
+---
+title: Bulldozing biodiversity?
+description: Conservation with the private sector.
+author:
+  - name: Seb Dunnett
+    url: https://sebdunnett.github.io/
+    orcid: 0000-0002-5300-3075
+date: "2015-12-10"
+citation: 
+  url: https://sebdunnett.github.io/talks/bulldozing-biodiversity/
+draft: false
+image: bulldozing-biz.jpg
+---
+
+**What**
+
+Policy Seminar
+
+**Where**
+
+Centre for Environmental Policy, Imperial College London
+
+**For**
+
+Environmental Technology master's students
+
+# Overview
+
+The human race is two thirds of the way to having the same impact on biodiversity in their short lifetime on Earth than a 112-mile wide asteroid. Businesses often shoulder the lion's share of the blame for this. They undeniably have wide-reaching and substantial impacts on biodiversity, and are often accused of having undue influence on policy. However, they also offer an important lever for change. This talk will present UNEP-WCMC's work engaging the private sector, primarily the extractive industries, before giving real world examples of the science-government-business interface and implications for conservation.

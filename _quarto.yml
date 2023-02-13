@@ -4,17 +4,21 @@ project:
 pagetitle: "{{< meta title >}} | {{< meta website.title >}}"
 
 website:
-  title: Sebastian Dunnett, PhD
+  title: Sebastian Dunnett
   favicon: images/favicon.png
+  twitter-card: true
+  open-graph: true
   navbar:
-    logo: images/sd.svg
+    #logo: images/sd.svg
     left:
       - href: index.qmd
         text: About
       - href: posts.qmd
         text: Posts
       - href: publications.qmd
-        text: Publications
+        text: Research
+      - href: talks.qmd
+        text: Talks
     right:
       - icon: twitter
         href: https://twitter.com/sebdunnett
