@@ -1,28 +1,40 @@
 ---
-title: Bulldozing biodiversity?
-description: Conservation with the private sector.
+title: Bulldozing biodiversity? Conservation with the private sector.
+description: Policy seminar delivered to environmental master's students at Imperial College London.
 author:
   - name: Seb Dunnett
-    url: https://sebdunnett.github.io/
+    url: https://www.sebdunnett.com
     orcid: 0000-0002-5300-3075
 date: "2015-12-10"
 citation: 
-  url: https://sebdunnett.github.io/talks/bulldozing-biodiversity/
+  url: http://sebdunnett.com/talks/2015-12-10-bulldozing-biodiversity/
 draft: false
-image: bulldozing-biz.jpg
+image: biz.gif
 ---
 
-**What**
+::: {.callout-note icon=false}
+
+## What
 
 Policy Seminar
 
-**Where**
+:::
+
+::: {.callout-note icon=false}
+
+## Where
 
 Centre for Environmental Policy, Imperial College London
 
-**For**
+:::
+
+::: {.callout-note icon=false}
+
+## For
 
 Environmental Technology master's students
+
+:::
 
 # Overview
 
