@@ -1,1 +1,1 @@
-Sitemap: https://sebdunnett.github.io/sitemap.xml
+Sitemap: https://sebdunnett.com/sitemap.xml
