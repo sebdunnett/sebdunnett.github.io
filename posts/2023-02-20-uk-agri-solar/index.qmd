@@ -12,6 +12,13 @@ citation:
 draft: false
 image: solar_farm.jpg
 bibliography: bib.bib
+website:
+    twitter-card: 
+      image: "solar_farm.png"
+      card-style: summary_large_image
+    open-graph: 
+      image: "solar_farm.png"
+      locale: en_GB
 ---
 
 Reviving an old Twitter thread to expedite my first ever blog contribution; as a lifelong environmentalist, I'm a fan of recycling. If you want to check out the original thread, and its total lack of engagement, it's [here](https://twitter.com/sebdunnett/status/1579782734406643712).
