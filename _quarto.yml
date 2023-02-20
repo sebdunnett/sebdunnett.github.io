@@ -4,15 +4,12 @@ project:
 pagetitle: "{{< meta title >}} | {{< meta website.title >}}"
 
 website:
+  site-url: https://sebdunnett.com/
   title: Sebastian Dunnett
   favicon: images/favicon.png
   twitter-card: 
-    image: "images/twitter_card.jpg"
-    card-style: summary_large_image
     creator: "@sebdunnett"
-    site: "@sebdunnett"
-  open-graph: 
-    image: "images/twitter_card.jpg"
+  open-graph:
     locale: en_GB
   navbar:
     #logo: images/sd.svg
