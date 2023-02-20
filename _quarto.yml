@@ -6,8 +6,14 @@ pagetitle: "{{< meta title >}} | {{< meta website.title >}}"
 website:
   title: Sebastian Dunnett
   favicon: images/favicon.png
-  twitter-card: true
-  open-graph: true
+  twitter-card: 
+    image: "images/twitter_card.jpg"
+    card-style: summary_large_image
+    creator: "@sebdunnett"
+    site: "@sebdunnett"
+  open-graph: 
+    image: "images/twitter_card.jpg"
+    locale: en_GB
   navbar:
     #logo: images/sd.svg
     left:
