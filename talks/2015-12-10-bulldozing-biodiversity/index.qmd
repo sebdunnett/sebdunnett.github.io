@@ -9,7 +9,7 @@ date: "2015-12-10"
 citation: 
   url: http://sebdunnett.com/talks/2015-12-10-bulldozing-biodiversity/
 draft: false
-image: biz.gif
+image: ../../images/biz.gif
 ---
 
 ::: {.callout-note icon=false}

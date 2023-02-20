@@ -9,13 +9,13 @@ date: "2021-05-19"
 citation: 
   url: http://sebdunnett.com/talks/2021-05-19-cieem-rsb-ies/
 draft: false
-image: montreal.jpg
+image: ../../images/montreal.jpg
 ---
 
 Preview image by [Matthias Mullie](https://unsplash.com/@matthiasmullie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/VAxCHgJvZ0g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
   
 
-![](event.png)
+![](../../images/ies_event.png)
 
 ::: {.callout-note icon=false}
 
@@ -49,4 +49,4 @@ This panel event will place the COP26 theme of nature-based solutions within the
 
 A time-stamped recording of the event is [here](https://youtu.be/3lRPvo2qmIg?t=1500).
 
-![](event.jpg)
+![](../../images/ies_zoom.jpg)

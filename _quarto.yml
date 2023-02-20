@@ -28,8 +28,12 @@ website:
         href: https://github.com/sebdunnett
       - icon: envelope
         href: mailto:sebdunnett@gmail.com
-      - href: resources/SDunnett_CV.pdf
-        text: CV
+      - text: CV
+        menu: 
+          - text: One page
+            href: resources/SDunnett_CV.pdf
+          - text: Academic
+            href: resources/SDunnett_CV_academic.pdf
   page-footer:
     center: |
       <span class="faux-block">{{< fa brands creative-commons title="copyright" >}} 2023 Sebastian Dunnett</span>
@@ -41,9 +45,8 @@ format:
       dark: dark.scss
     mainfont: Mulish
     toc: true
-    code-fold: show
+    code-fold: true
     code-summary: "Show/hide code"
     code-block-border-left: "#bc4749"
     code-block-bg: "transparent"
     highlight-style: solarized
-
