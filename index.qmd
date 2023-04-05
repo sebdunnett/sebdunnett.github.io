@@ -14,6 +14,9 @@ about:
   - icon: twitter 
     text: Twitter
     href: https://twitter.com/sebdunnett
+  - icon: instagram
+    href: https://www.instagram.com/sebdunnett
+    text: Instagram
   - icon: github 
     text: GitHub
     href: https://github.com/sebdunnett
