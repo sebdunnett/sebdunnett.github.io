@@ -10,7 +10,7 @@ categories: [solar, agriculture, energy, spatial] # self-defined categories
 citation: 
   url: https://sebdunnett.com/posts/2023-02-20-uk-agri-solar/
 draft: false
-image: solar_farm.jpg
+image: ../../images/solar_farm.jpg
 bibliography: bib.bib
 ---
 
@@ -54,7 +54,7 @@ eng = st_read("data/eng.geojson", quiet=TRUE) |>
 
 # Solar in the UK
 
-![Solar farm in Rockbeare, Exeter. Photo by [Red Zeppelin](https://unsplash.com/@redzeppelin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/UVGE-o757-g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)](solar_farm.jpg)
+![Solar farm in Rockbeare, Exeter. Photo by [Red Zeppelin](https://unsplash.com/@redzeppelin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/UVGE-o757-g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)](../../images/solar_farm.jpg)
 
 Firstly, we need data for solar locations. Back in 2016 when I started my PhD, there were very little spatial data for renewable energy -- one of the drivers for my first paper [@dunnettHarmonisedGlobalDatasets2020a]; thankfully it's not as bad now. I used data from a study that took a similar approach to ours, but with a much more detailed focus on the UK.
 
