@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Dr Sebastian Dunnett is a nature scientist and IPBES biodiversity expert with a PhD in renewable energy and biodiversity and significant experience helping organisations deliver sustainability objectives. Seb is currently working to ensure businesses contribute to global biodiversity goals, as well as advocating for nature in a just energy transition."
+    "text": "Dr Sebastian Dunnett is a nature scientist and IPBES biodiversity expert with a PhD in renewable energy and biodiversity and significant experience helping organisations deliver sustainability objectives. Seb is currently working to ensure businesses contribute to global biodiversity goals, as well as advocating for nature in a just energy transition.\n\n“A thing is right when it tends to preserve the integrity, stability and beauty of the biotic community. It is wrong when it tends otherwise.”\nAldo Leopold"
   },
   {
     "objectID": "posts/2023-02-20-uk-agri-solar/index.html",
@@ -21,11 +21,53 @@
     "text": "Data\n\n\nSolar data from Stowell et al. (2020)\nAgricultural Land Classifications from Natural England\nRenewables planning data from BEIS"
   },
   {
+    "objectID": "posts/2023-06-26-offsets-pt1/index.html",
+    "href": "posts/2023-06-26-offsets-pt1/index.html",
+    "title": "Biodiversity offsets pt 1: an introduction",
+    "section": "",
+    "text": "Ten years ago, in my master’s thesis, I explored the concept of biodiversity offsetting and its potential as a conservation strategy in the context of the perceived success of market-based instruments for carbon. To be honest, I was probably most chuffed about the title: Can biodiversity offsetting follow in carbon’s footprints?\nAmid renewed interest in biodiversity offsets and credits (essentially the same thing), I reread (ahem, skimmed) it and I feel a lot of the arguments are still relevant ten years later. In 2012, I concluded that:\nIn the next few blog posts I’ll revisit some of the arguments supporting this conclusion and test them against ten years of further evidence to see whether a master’s dissertation in 2023 would agree: are offsets ineffective?"
+  },
+  {
+    "objectID": "posts/2023-06-26-offsets-pt1/index.html#defining-biodiversity-offsetting",
+    "href": "posts/2023-06-26-offsets-pt1/index.html#defining-biodiversity-offsetting",
+    "title": "Biodiversity offsets pt 1: an introduction",
+    "section": "Defining biodiversity offsetting",
+    "text": "Defining biodiversity offsetting\nBiodiversity offsetting can be summarized in three words: no net loss. It originated from an American policy that aimed to counter the alarming decline of wetlands in the country. In this first blog post, we’ll cover the basics of biodiversity offsetting, discuss its key principles, and explore different offset mechanisms.\nThe term “biodiversity offsets” refers to measurable conservation outcomes aimed at compensating for significant adverse impacts on biodiversity resulting from development projects. These offsets come into play after appropriate prevention and mitigation measures have been implemented. The primary goal of biodiversity offsets is to achieve no net loss, and ideally, a net gain in biodiversity on the ground. This encompasses various aspects, including species composition, habitat structure, ecosystem function, and the cultural values associated with biodiversity (Business and Biodiversity Offsets Programme (BBOP) 2012)."
+  },
+  {
+    "objectID": "posts/2023-06-26-offsets-pt1/index.html#mitigation-hierarchy-ensuring-responsible-offsetting",
+    "href": "posts/2023-06-26-offsets-pt1/index.html#mitigation-hierarchy-ensuring-responsible-offsetting",
+    "title": "Biodiversity offsets pt 1: an introduction",
+    "section": "Mitigation hierarchy: ensuring responsible offsetting",
+    "text": "Mitigation hierarchy: ensuring responsible offsetting\nA crucial aspect of biodiversity offsetting is the concept of the mitigation hierarchy. This hierarchy serves as a guideline to prevent offsetting from becoming a “license to destroy”. According to this principle, offsets should only be utilized to compensate for genuinely unavoidable damage. To determine unavoidable impacts, options must be thoroughly explored to first avoid, minimize, or rehabilitate/restore the affected ecosystems (Lawton et al. 2010). The mitigation hierarchy comprises the following principles (Business and Biodiversity Offsets Programme (BBOP) 2012):\n\nAvoidance: Measures taken to prevent impacts by carefully considering the spatial or temporal placement of infrastructure elements, thus completely avoiding harm to specific components of biodiversity.\nMinimization: Actions aimed at reducing the duration, intensity, and extent of impacts that cannot be entirely avoided, to the extent practically feasible.\nRehabilitation/Restoration: Efforts to restore degraded ecosystems or rehabilitate cleared ecosystems after exposure to impacts that could not be completely avoided or minimized.\nOffset: Measures undertaken to compensate for any residual significant adverse impacts that could not be avoided, minimized, rehabilitated, or restored. The goal is to achieve no net loss or even a net gain of biodiversity. Offsets can take the form of positive management interventions, such as restoring degraded habitats or protecting areas facing imminent or projected biodiversity loss.\n\n\n20122023\n\n\n\n\n\nThe mitigation hierarchy. Source: Rio Tinto.\n\n\n\n\n\n\n\nThe new and improved mitigation hierarchy. Source: Forest Trends.\n\n\n\n\n\nAs an example, say we were building some infrastructure on some natural land. Firstly, we might avoid impacting some ancient oak trees by building a slightly more indirect access road. Secondly, we could minimise impacts by timing works to avoid the bird breeding season, and not work at night under lights to protect nocturnal species. After construction is complete, we would restore the access road to its original condition. If an offset policy were in place, we would then look to compensate for any residual impacts."
+  },
+  {
+    "objectID": "posts/2023-06-26-offsets-pt1/index.html#exploring-offset-mechanisms",
+    "href": "posts/2023-06-26-offsets-pt1/index.html#exploring-offset-mechanisms",
+    "title": "Biodiversity offsets pt 1: an introduction",
+    "section": "Exploring offset mechanisms:",
+    "text": "Exploring offset mechanisms:\n\n\n\nFigure 1: a, Green shading shows the ratio of the area occupied by biodiversity offsets in each country to the total area of that country (n = 12,983 offset projects in 37 countries). Grey shading shows the countries with relevant policies, but where no evidence of offset implementation was found (n = 37). b, Locations of all documented biodiversity offset locations (n = 3,416; black dots) and known associated development projects (n = 247; red dots). Source: Bull and Strange (2018).\n\n\nBiodiversity offset mechanisms can vary in their approach. Figure 1 illustrates three examples of offsetting mechanisms, highlighting their relative strengths and weaknesses (Madsen, Carroll, and Moore Brands 2010). These mechanisms provide a range of options for achieving biodiversity conservation goals through compensation."
+  },
+  {
+    "objectID": "posts/2023-06-26-offsets-pt1/index.html#the-role-of-reports-and-guidelines",
+    "href": "posts/2023-06-26-offsets-pt1/index.html#the-role-of-reports-and-guidelines",
+    "title": "Biodiversity offsets pt 1: an introduction",
+    "section": "The role of reports and guidelines",
+    "text": "The role of reports and guidelines\nOver the past decade, several reports have fueled interest in biodiversity offsetting as a conservation measure, particularly within the European Union. Key reports include TEEB, eftec and IEEP’s technical report for the EC, and Treweek Consultants’ scoping report for Defra. These reports have shed light on the potential of biodiversity offsetting to deliver effective compensation for biodiversity loss (TEEB 2010; eftec and IEEP 2010; Treweek 2009). In line with this, the BBOP released guidelines and standards for biodiversity offsetting, aiming to refine the measures further based on public consultation (Business and Biodiversity Offsets Programme (BBOP) 2012)."
+  },
+  {
+    "objectID": "posts/2023-06-26-offsets-pt1/index.html#conclusion",
+    "href": "posts/2023-06-26-offsets-pt1/index.html#conclusion",
+    "title": "Biodiversity offsets pt 1: an introduction",
+    "section": "Conclusion",
+    "text": "Conclusion\nBiodiversity offsetting offers a promising approach to mitigate the adverse impacts of development projects on biodiversity. By adhering to the mitigation hierarchy and implementing effective offset mechanisms, we can strive for no net loss and even a net gain in biodiversity. As guidelines and standards continue to evolve, biodiversity offsetting holds the potential to become a more efficient tool in compensating for biodiversity loss. By embracing this approach, we can contribute to the preservation and enhancement of our precious natural heritage."
+  },
+  {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "UK solar versus agricultural production\n\n\n\nsolar\n\n\nagriculture\n\n\nenergy\n\n\nspatial\n\n\n\nWhy pitting solar against food production is a red herring\n\n\n\nSeb Dunnett\n\n\nFeb 20, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Biodiversity offsets pt 1: an introduction\n\n\n\noffsets\n\n\nbiodiversity\n\n\n\nRevisiting my master’s dissertation ten years on\n\n\n\nSeb Dunnett\n\n\nJun 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUK solar versus agricultural production\n\n\n\nsolar\n\n\nagriculture\n\n\nenergy\n\n\nspatial\n\n\n\nWhy pitting solar against food production is a red herring\n\n\n\nSeb Dunnett\n\n\nFeb 20, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html",
