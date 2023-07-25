@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Dr Sebastian Dunnett is a nature scientist and IPBES biodiversity expert with a PhD in renewable energy and biodiversity and significant experience helping organisations deliver sustainability objectives. Seb is currently working to ensure businesses contribute to global biodiversity goals, as well as advocating for nature in a just energy transition.\n\n“A thing is right when it tends to preserve the integrity, stability and beauty of the biotic community. It is wrong when it tends otherwise.”\nAldo Leopold"
+  },
+  {
+    "objectID": "posts/2023-02-20-uk-agri-solar/index.html",
+    "href": "posts/2023-02-20-uk-agri-solar/index.html",
+    "title": "UK solar versus agricultural production",
+    "section": "",
+    "text": "Reviving an old Twitter thread to expedite my first ever blog contribution; as a lifelong environmentalist, I’m a fan of recycling. If you want to check out the original thread, and its total lack of engagement, it’s here.\nYou might have seen the UK government plans to tighten restrictions for field solar on farmland back in October last year. Although it didn’t go through in the end, the false dichotomy of farming vs solar energy keeps getting peddled. Here’s ITV going all clickbait with “Heating or eating?”. Most commentators I’ve seen use non-spatial figures so I decided to dive into the spatial data to answer the question: has the government “fixed” a non-existent problem?"
+  },
+  {
+    "objectID": "posts/2023-02-20-uk-agri-solar/index.html#data",
+    "href": "posts/2023-02-20-uk-agri-solar/index.html#data",
+    "title": "UK solar versus agricultural production",
+    "section": "Data",
+    "text": "Data\n\n\nSolar data from Stowell et al. (2020)\nAgricultural Land Classifications from Natural England\nRenewables planning data from BEIS"
+  },
+  {
+    "objectID": "posts/2023-06-26-offsets-pt1/index.html",
+    "href": "posts/2023-06-26-offsets-pt1/index.html",
+    "title": "Biodiversity offsets pt 1: an introduction",
+    "section": "",
+    "text": "Ten years ago, in my master’s thesis, I explored the concept of biodiversity offsetting and its potential as a conservation strategy in the context of the perceived success of market-based instruments for carbon. To be honest, I was probably most chuffed about the title: Can biodiversity offsetting follow in carbon’s footprints?\nAmid renewed interest in biodiversity offsets and credits (essentially the same thing), I reread (ahem, skimmed) it and I feel a lot of the arguments are still relevant ten years later. In 2012, I concluded that:\nIn the next few blog posts I’ll revisit some of the arguments supporting this conclusion and test them against ten years of further evidence to see whether a master’s dissertation in 2023 would agree: are offsets ineffective?"
+  },
+  {
+    "objectID": "posts/2023-06-26-offsets-pt1/index.html#defining-biodiversity-offsetting",
+    "href": "posts/2023-06-26-offsets-pt1/index.html#defining-biodiversity-offsetting",
+    "title": "Biodiversity offsets pt 1: an introduction",
+    "section": "Defining biodiversity offsetting",
+    "text": "Defining biodiversity offsetting\nBiodiversity offsetting can be summarized in three words: no net loss. It originated from an American policy that aimed to counter the alarming decline of wetlands in the country. In this first blog post, we’ll cover the basics of biodiversity offsetting, discuss its key principles, and explore different offset mechanisms.\nThe term “biodiversity offsets” refers to measurable conservation outcomes aimed at compensating for significant adverse impacts on biodiversity resulting from development projects. These offsets come into play after appropriate prevention and mitigation measures have been implemented. The primary goal of biodiversity offsets is to achieve no net loss, and ideally, a net gain in biodiversity on the ground. This encompasses various aspects, including species composition, habitat structure, ecosystem function, and the cultural values associated with biodiversity (Business and Biodiversity Offsets Programme (BBOP) 2012)."
+  },
+  {
+    "objectID": "posts/2023-06-26-offsets-pt1/index.html#mitigation-hierarchy-ensuring-responsible-offsetting",
+    "href": "posts/2023-06-26-offsets-pt1/index.html#mitigation-hierarchy-ensuring-responsible-offsetting",
+    "title": "Biodiversity offsets pt 1: an introduction",
+    "section": "Mitigation hierarchy: ensuring responsible offsetting",
+    "text": "Mitigation hierarchy: ensuring responsible offsetting\nA crucial aspect of biodiversity offsetting is the concept of the mitigation hierarchy. This hierarchy serves as a guideline to prevent offsetting from becoming a “license to destroy”. According to this principle, offsets should only be utilized to compensate for genuinely unavoidable damage. To determine unavoidable impacts, options must be thoroughly explored to first avoid, minimize, or rehabilitate/restore the affected ecosystems (Lawton et al. 2010). The mitigation hierarchy comprises the following principles (Business and Biodiversity Offsets Programme (BBOP) 2012):\n\nAvoidance: Measures taken to prevent impacts by carefully considering the spatial or temporal placement of infrastructure elements, thus completely avoiding harm to specific components of biodiversity.\nMinimization: Actions aimed at reducing the duration, intensity, and extent of impacts that cannot be entirely avoided, to the extent practically feasible.\nRehabilitation/Restoration: Efforts to restore degraded ecosystems or rehabilitate cleared ecosystems after exposure to impacts that could not be completely avoided or minimized.\nOffset: Measures undertaken to compensate for any residual significant adverse impacts that could not be avoided, minimized, rehabilitated, or restored. The goal is to achieve no net loss or even a net gain of biodiversity. Offsets can take the form of positive management interventions, such as restoring degraded habitats or protecting areas facing imminent or projected biodiversity loss.\n\n\n20122023\n\n\n\n\n\nThe mitigation hierarchy. Source: Rio Tinto.\n\n\n\n\n\n\n\nThe new and improved mitigation hierarchy. Source: Forest Trends.\n\n\n\n\n\nAs an example, say we were building some infrastructure on some natural land. Firstly, we might avoid impacting some ancient oak trees by building a slightly more indirect access road. Secondly, we could minimise impacts by timing works to avoid the bird breeding season, and not work at night under lights to protect nocturnal species. After construction is complete, we would restore the access road to its original condition. If an offset policy were in place, we would then look to compensate for any residual impacts."
+  },
+  {
+    "objectID": "posts/2023-06-26-offsets-pt1/index.html#exploring-offset-mechanisms",
+    "href": "posts/2023-06-26-offsets-pt1/index.html#exploring-offset-mechanisms",
+    "title": "Biodiversity offsets pt 1: an introduction",
+    "section": "Exploring offset mechanisms:",
+    "text": "Exploring offset mechanisms:\n\n\n\nFigure 1: a, Green shading shows the ratio of the area occupied by biodiversity offsets in each country to the total area of that country (n = 12,983 offset projects in 37 countries). Grey shading shows the countries with relevant policies, but where no evidence of offset implementation was found (n = 37). b, Locations of all documented biodiversity offset locations (n = 3,416; black dots) and known associated development projects (n = 247; red dots). Source: Bull and Strange (2018).\n\n\nBiodiversity offset mechanisms can vary in their approach. Figure 1 illustrates three examples of offsetting mechanisms, highlighting their relative strengths and weaknesses (Madsen, Carroll, and Moore Brands 2010). These mechanisms provide a range of options for achieving biodiversity conservation goals through compensation."
+  },
+  {
+    "objectID": "posts/2023-06-26-offsets-pt1/index.html#the-role-of-reports-and-guidelines",
+    "href": "posts/2023-06-26-offsets-pt1/index.html#the-role-of-reports-and-guidelines",
+    "title": "Biodiversity offsets pt 1: an introduction",
+    "section": "The role of reports and guidelines",
+    "text": "The role of reports and guidelines\nOver the past decade, several reports have fueled interest in biodiversity offsetting as a conservation measure, particularly within the European Union. Key reports include TEEB, eftec and IEEP’s technical report for the EC, and Treweek Consultants’ scoping report for Defra. These reports have shed light on the potential of biodiversity offsetting to deliver effective compensation for biodiversity loss (TEEB 2010; eftec and IEEP 2010; Treweek 2009). In line with this, the BBOP released guidelines and standards for biodiversity offsetting, aiming to refine the measures further based on public consultation (Business and Biodiversity Offsets Programme (BBOP) 2012)."
+  },
+  {
+    "objectID": "posts/2023-06-26-offsets-pt1/index.html#conclusion",
+    "href": "posts/2023-06-26-offsets-pt1/index.html#conclusion",
+    "title": "Biodiversity offsets pt 1: an introduction",
+    "section": "Conclusion",
+    "text": "Conclusion\nBiodiversity offsetting offers a promising approach to mitigate the adverse impacts of development projects on biodiversity. By adhering to the mitigation hierarchy and implementing effective offset mechanisms, we can strive for no net loss and even a net gain in biodiversity. As guidelines and standards continue to evolve, biodiversity offsetting holds the potential to become a more efficient tool in compensating for biodiversity loss. By embracing this approach, we can contribute to the preservation and enhancement of our precious natural heritage."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Biodiversity offsets pt 1: an introduction\n\n\n\noffsets\n\n\nbiodiversity\n\n\n\nRevisiting my master’s dissertation ten years on\n\n\n\nSeb Dunnett\n\n\nJun 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUK solar versus agricultural production\n\n\n\nsolar\n\n\nagriculture\n\n\nenergy\n\n\nspatial\n\n\n\nWhy pitting solar against food production is a red herring\n\n\n\nSeb Dunnett\n\n\nFeb 20, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Sebastian Dunnett",
+    "section": "",
+    "text": "2022\nDunnett, S., Holland, R. A., Taylor, G., & Eigenbrod, F. (2022a). Predicted wind and solar energy expansion has minimal overlap with multiple conservation priorities across global regions. Proceedings of the National Academy of Sciences, 119(6). \nDunnett, S., Holland, R. A., Taylor, G., & Eigenbrod, F. (2022b). Reply to Pérez-García et al.: Perfect is the enemy of good. Proceedings of the National Academy of Sciences, 119(33), e2206500119. \nDunnett, S., Holland, R. A., Taylor, G., & Eigenbrod, F. (2022c). Reply to Niebuhr et al.: Infrastructure impacts must always be assessed locally. Proceedings of the National Academy of Sciences, 119(48), e2214469119. \n\n\n2021\nDelafield, G., Donnison, C., Roddis, P., Arvanitopoulos, T., Sfyridis, A., Dunnett, S., Ball, T., & Logan, K. G. (2021). Conceptual framework for balancing society and nature in net-zero energy transitions. Environmental Science & Policy, 125, 189–201. \n\n\n2020\nDunnett, S., Sorichetta, A., Taylor, G., & Eigenbrod, F. (2020). Harmonised global datasets of wind and solar farm locations and power. Scientific Data, 7(130). \nEigenbrod, F., Beckmann, M., Dunnett, S., Graham, L., Holland, R. A., Meyfroidt, P., Seppelt, R., Song, X.-P., Spake, R., Václavík, T., & Verburg, P. H. (2020). Identifying agricultural frontiers for modeling global cropland expansion. One Earth, 3(4), 504–514. \n\n\nTheses \nDunnett, S. (2020). Assessing potential spatial trade-offs between renewable energy expansion and biodiversity conservation [PhD thesis, University of Southampton]. \nDunnett, S. (2012). Can biodiversity offsetting follow in carbon’s footprints? [Master’s thesis]. Imperial College London."
+  },
+  {
+    "objectID": "talks/2015-12-10-bulldozing-biodiversity/index.html",
+    "href": "talks/2015-12-10-bulldozing-biodiversity/index.html",
+    "title": "Bulldozing biodiversity? Conservation with the private sector.",
+    "section": "",
+    "text": "What\n\n\n\nPolicy Seminar\n\n\n\n\n\n\n\n\nWhere\n\n\n\nCentre for Environmental Policy, Imperial College London\n\n\n\n\n\n\n\n\nFor\n\n\n\nEnvironmental Technology master’s students\n\n\n\nOverview\nThe human race is two thirds of the way to having the same impact on biodiversity in their short lifetime on Earth than a 112-mile wide asteroid. Businesses often shoulder the lion’s share of the blame for this. They undeniably have wide-reaching and substantial impacts on biodiversity, and are often accused of having undue influence on policy. However, they also offer an important lever for change. This talk will present UNEP-WCMC’s work engaging the private sector, primarily the extractive industries, before giving real world examples of the science-government-business interface and implications for conservation.\n\n\n\n\nCitationBibTeX citation:@online{dunnett2015,\n  author = {Seb Dunnett},\n  title = {Bulldozing Biodiversity? {Conservation} with the Private\n    Sector.},\n  date = {2015-12-10},\n  url = {http://sebdunnett.com/talks/2015-12-10-bulldozing-biodiversity/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSeb Dunnett. 2015. “Bulldozing Biodiversity? Conservation with the\nPrivate Sector.” December 10, 2015. http://sebdunnett.com/talks/2015-12-10-bulldozing-biodiversity/."
+  },
+  {
+    "objectID": "talks/2021-05-19-cieem-rsb-ies/index.html",
+    "href": "talks/2021-05-19-cieem-rsb-ies/index.html",
+    "title": "Nature-based solutions: the Conventions on Climate & Biodiversity",
+    "section": "",
+    "text": "Preview image by Matthias Mullie on Unsplash.\n\n\n\n\n\n\n\nWhat\n\n\n\nPanel with presentation\n\n\n\n\n\n\n\n\nWhere\n\n\n\nOnline\n\n\n\n\n\n\n\n\nFor\n\n\n\nJointly hosted by the Chartered Institute of Ecology and Environmental Management (CIEEM), the Royal Society for Biology (RSB), and the Institution of Environmental Sciences (IES).\n\n\n\nOverview\nTowards the end of 2021, leaders from around the world will meet in Kunming and Glasgow to discuss the Convention on Biological Diversity and the Convention on Climate Change at COP15 and COP26 respectively. In those conversations, the role of nature will be paramount. Nature-based solutions will play an integral role in the fight against climate change, which has made them one of the key presidential themes for COP26. Nature also underpins the ecological emergency which is interlinked with the climate crisis.\nThis panel event will place the COP26 theme of nature-based solutions within the context of the wider sustainability agenda, especially the upcoming COP15 for the Convention on Biological Diversity. Our expert panellists will link the two Conventions and their conferences through the lens of nature and nature-based solutions, giving attendees insights into what they should expect ahead of COP15, the links between the two conferences, and the importance of nature as a key element of both high-level discussions.\nA time-stamped recording of the event is here.\n\n\n\n\n\nCitationBibTeX citation:@online{dunnett2021,\n  author = {Seb Dunnett},\n  title = {Nature-Based Solutions: The {Conventions} on {Climate} \\&\n    {Biodiversity}},\n  date = {2021-05-19},\n  url = {http://sebdunnett.com/talks/2021-05-19-cieem-rsb-ies/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSeb Dunnett. 2021. “Nature-Based Solutions: The Conventions on\nClimate & Biodiversity.” May 19, 2021. http://sebdunnett.com/talks/2021-05-19-cieem-rsb-ies/."
+  },
+  {
+    "objectID": "talks/2022-02-24-CBCGDF/index.html",
+    "href": "talks/2022-02-24-CBCGDF/index.html",
+    "title": "Dialogue on Biodiversity Friendly Renewable Energy",
+    "section": "",
+    "text": "Preview image by Victor Stefancu on Unsplash.\n\n\n\n\n\n\n\nWhat\n\n\n\nPanel with presentation\n\n\n\n\n\n\n\n\nWhere\n\n\n\nOnline\n\n\n\n\n\n\n\n\nFor\n\n\n\nJointly hosted by the China Biodiversity Conservation and Green Development Foundation (CBCGDF) and the International Conservation and Biodiversity Team.\n\n\n\nOverview\nThe session was recorded and can be found here while a (Chinese language) report can be found here.\n\n\n\n\n\nCitationBibTeX citation:@online{dunnett2022,\n  author = {Seb Dunnett},\n  title = {Dialogue on {Biodiversity} {Friendly} {Renewable} {Energy}},\n  date = {2022-02-24},\n  url = {http://sebdunnett.com/talks/2022-02-24-CBCGDF/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSeb Dunnett. 2022. “Dialogue on Biodiversity Friendly Renewable\nEnergy.” February 24, 2022. http://sebdunnett.com/talks/2022-02-24-CBCGDF/."
+  },
+  {
+    "objectID": "talks/2023-01-27-manging-nature-urban-environments/index.html",
+    "href": "talks/2023-01-27-manging-nature-urban-environments/index.html",
+    "title": "Managing People and Nature in Urban Environments",
+    "section": "",
+    "text": "What\n\n\n\nLecture\n\n\n\n\n\n\n\n\nWhere\n\n\n\nImperial College London\n\n\n\n\n\n\n\n\nFor\n\n\n\nUrban Sustainable Environment option students on the Environmental Technology MSc.\n\n\n\nOverview\nThe lecture draws on my experience with the London Borough of Hammersmith and Fulham and the London National Park City campaign. It outlines the importance of urban ecology, and the need to integrate with global biodiversity processes. It highlights some of the main challenges in managing urban spaces for nature before presenting some possible solutions.\n\n\n\n\nCitationBibTeX citation:@online{dunnett2023,\n  author = {Seb Dunnett},\n  title = {Managing {People} and {Nature} in {Urban} {Environments}},\n  date = {2023-01-27},\n  url = {http://sebdunnett.com/talks/2023-01-27-managing-nature-urban-environments/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSeb Dunnett. 2023. “Managing People and Nature in Urban\nEnvironments.” January 27, 2023. http://sebdunnett.com/talks/2023-01-27-managing-nature-urban-environments/."
+  },
+  {
+    "objectID": "talks/2023-01-30-terra-building-climate-career/index.html",
+    "href": "talks/2023-01-30-terra-building-climate-career/index.html",
+    "title": "Building a Career in Climate",
+    "section": "",
+    "text": "What\n\n\n\nCareers event\n\n\n\n\n\n\n\n\nWhere\n\n\n\nOnline\n\n\n\n\n\n\n\n\nFor\n\n\n\nTerra.do community\n\n\n\nOverview\nPresentation followed by a Q&A covering the following aspects of building a career in climate:\n\nWhat is your current climate role?\nWhat was your professional background and how did it lead you here?\nWhat is unique about working in your sector?\nWhat are some less-known challenges that affect your sector?\nWhat climate solution are you most excited about?\nWhat are the kinds of projects and skills that are most in demand in your sector?\nWhere do you most see opportunity for individuals looking to enter your sector?\n\n\n\n\n\nCitationBibTeX citation:@online{dunnett2023,\n  author = {Seb Dunnett},\n  title = {Building a {Career} in {Climate}},\n  date = {2023-01-30},\n  url = {http://sebdunnett.com/talks/2023-01-30-terra-building-climate-career/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSeb Dunnett. 2023. “Building a Career in Climate.” January\n30, 2023. http://sebdunnett.com/talks/2023-01-30-terra-building-climate-career/."
+  },
+  {
+    "objectID": "talks/2023-02-21-building-sustainability-career/index.html",
+    "href": "talks/2023-02-21-building-sustainability-career/index.html",
+    "title": "Building a Career in Sustainability",
+    "section": "",
+    "text": "What\n\n\n\nCareers event\n\n\n\n\n\n\n\n\nWhere\n\n\n\nImperial College London\n\n\n\n\n\n\n\n\nFor\n\n\n\nUndergraduate and master’s students\n\n\n\nOverview\nPanel Q&A on building a career in sustainability.\n\n\n\n\nCitationBibTeX citation:@online{dunnett2023,\n  author = {Seb Dunnett},\n  title = {Building a {Career} in {Sustainability}},\n  date = {2023-02-21},\n  url = {http://sebdunnett.com/talks/2023-02-21-building-sustainability-career/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSeb Dunnett. 2023. “Building a Career in Sustainability.”\nFebruary 21, 2023. http://sebdunnett.com/talks/2023-02-21-building-sustainability-career/."
+  },
+  {
+    "objectID": "talks/2023-06-20-power-summit/index.html",
+    "href": "talks/2023-06-20-power-summit/index.html",
+    "title": "Acheiving Europe’s renewable energy targets while protecting nature",
+    "section": "",
+    "text": "What\n\n\n\nPop up panel discussion\n\n\n\n\n\n\n\n\nWhere\n\n\n\nEurelectric’s Power Summit 2023: Maison de la Poste, Brussels, Belgium\n\n\n\n\n\n\n\n\nFor\n\n\n\nEnergy sector professionals\n\n\n\nOverview\nEurope is now negotiating a landmark law to restore damaged environments. But that’s running into opposition from those who see a contradiction between nature protection and energy and food security. Looking ahead, the EU is set to triple the build out of wind and solar capacity by 2030. Can Europe fight both crises?\nLast year, Eurelectric launched the PowerPlant project focused on reshaping the public discourse. The goal is to promote integrated RES and infrastructure projects, which serve to both speed up the decarbonisation of the energy system and contribute to regenerate some of the 81% of habitats which are degraded across the EU.\nWithin this context, ensuring an optimal spatial planning is the first step to both minimise the impact on nature while providing visibility for renewables developers. Based on the recently agreed renewables permitting framework, by mid-2024 EU Member States are mandated to map all land and water surfaces needed to reach their 2030 renewable energy objectives. Optimal zoning will require combined nature and energy planning based on data-driven intelligence and involving all the relevant stakeholders in a timely manner.\nThe panelists will explore various solutions to tackle the climate and biodiversity crisis together, including:\n\nHow can we avoid impact on environmental sensitive areas while reaching the 2030 EU RES targets?\nWhat methodologies should Member States follow when mapping renewables suitable areas?\nWhat role for data-driven intelligence to ensure a sound energy transition planning?\nWhat is the electricity sector doing to minimise their impact on nature? And what is the necessary enabling framework to scale it up?\n\n\n\n\n\nCitationBibTeX citation:@online{dunnett2023,\n  author = {Seb Dunnett},\n  title = {Acheiving {Europe’s} Renewable Energy Targets While\n    Protecting Nature},\n  date = {2023-06-20},\n  url = {http://sebdunnett.com/talks/2023-06-20-power-summit/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSeb Dunnett. 2023. “Acheiving Europe’s Renewable Energy Targets\nWhile Protecting Nature.” June 20, 2023. http://sebdunnett.com/talks/2023-06-20-power-summit/."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Acheiving Europe’s renewable energy targets while protecting nature\n\n\n\n\n\nPanel discussion at Eurelectric’s Power Summit 2023.\n\n\n\n\n\n\nJun 20, 2023\n\n\nSeb Dunnett\n\n\n\n\n\n\n  \n\n\n\n\nBuilding a Career in Sustainability\n\n\n\n\n\nCareer event for Imperial College, hosted by the Energy Futures Lab, as part of their Sustainability Week.\n\n\n\n\n\n\nFeb 21, 2023\n\n\nSeb Dunnett\n\n\n\n\n\n\n  \n\n\n\n\nBuilding a Career in Climate\n\n\n\n\n\nCareer event for the Terra.do community, a collection of professionals looking to get into the climate space.\n\n\n\n\n\n\nJan 30, 2023\n\n\nSeb Dunnett\n\n\n\n\n\n\n  \n\n\n\n\nManaging People and Nature in Urban Environments\n\n\n\n\n\nRecurring lecture on urban ecology for environmental master’s students.\n\n\n\n\n\n\nJan 27, 2023\n\n\nSeb Dunnett\n\n\n\n\n\n\n  \n\n\n\n\nDialogue on Biodiversity Friendly Renewable Energy\n\n\n\n\n\nExpert panellist for day 1 – onshore energy – of discussions on mitigating the impact on wildlife of energy decarbonisation.\n\n\n\n\n\n\nFeb 24, 2022\n\n\nSeb Dunnett\n\n\n\n\n\n\n  \n\n\n\n\nNature-based solutions: the Conventions on Climate & Biodiversity\n\n\n\n\n\nExpert panellist for event exploring nature-based solutions in the build up to COP26 in Glasgow and COP15 in Montreal.\n\n\n\n\n\n\nMay 19, 2021\n\n\nSeb Dunnett\n\n\n\n\n\n\n  \n\n\n\n\nBulldozing biodiversity? Conservation with the private sector.\n\n\n\n\n\nPolicy seminar delivered to environmental master’s students at Imperial College London.\n\n\n\n\n\n\nDec 10, 2015\n\n\nSeb Dunnett\n\n\n\n\n\n\nNo matching items"
+  }
+]
