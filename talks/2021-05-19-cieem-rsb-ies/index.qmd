@@ -1,0 +1,52 @@
+---
+title: "Nature-based solutions: the Conventions on Climate & Biodiversity"
+description: Expert panellist for event exploring nature-based solutions in the build up to COP26 in Glasgow and COP15 in Montreal.
+author:
+  - name: Seb Dunnett
+    url: https://www.sebdunnett.com
+    orcid: 0000-0002-5300-3075
+date: "2021-05-19"
+citation: 
+  url: http://sebdunnett.com/talks/2021-05-19-cieem-rsb-ies/
+draft: false
+image: ../../images/montreal.jpg
+---
+
+Preview image by [Matthias Mullie](https://unsplash.com/@matthiasmullie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/VAxCHgJvZ0g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
+  
+
+![](../../images/ies_event.png)
+
+::: {.callout-note icon=false}
+
+## What
+
+Panel with presentation
+
+:::
+
+::: {.callout-note icon=false}
+
+## Where
+
+Online
+
+:::
+
+::: {.callout-note icon=false}
+
+## For
+
+Jointly hosted by the Chartered Institute of Ecology and Environmental Management (CIEEM), the Royal Society for Biology (RSB), and the Institution of Environmental Sciences (IES).
+
+:::
+
+# Overview
+
+Towards the end of 2021, leaders from around the world will meet in Kunming and Glasgow to discuss the Convention on Biological Diversity and the Convention on Climate Change at COP15 and COP26 respectively. In those conversations, the role of nature will be paramount. Nature-based solutions will play an integral role in the fight against climate change, which has made them one of the key presidential themes for COP26. Nature also underpins the ecological emergency which is interlinked with the climate crisis.
+
+This panel event will place the COP26 theme of nature-based solutions within the context of the wider sustainability agenda, especially the upcoming COP15 for the Convention on Biological Diversity. Our expert panellists will link the two Conventions and their conferences through the lens of nature and nature-based solutions, giving attendees insights into what they should expect ahead of COP15, the links between the two conferences, and the importance of nature as a key element of both high-level discussions.
+
+A time-stamped recording of the event is [here](https://youtu.be/3lRPvo2qmIg?t=1500).
+
+![](../../images/ies_zoom.jpg)

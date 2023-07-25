@@ -1,0 +1,22 @@
+---
+title: "My first post"
+description: "Isn't this an exciting development?"
+author:
+  - name: Seb Dunnett
+    url: https://sebdunnett.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: UNEP-WCMC - IPBES - London National Park City
+date: 05-02-2023
+categories: [R, raster] # self-defined categories
+citation: 
+  url: https://sebdunnett.github.io/posts/2023-02-05-my-first-post/
+draft: true
+---
+
+# Problem
+
+I had a problem in raster.
+
+# Solution
+
+This is what I did.
