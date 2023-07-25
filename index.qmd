@@ -1,0 +1,31 @@
+---
+title: Welcome!
+pagetitle: "About | Sebastian Dunnett"
+title-block-banner: true
+about:
+  #jolla,trestles,solana,marquee,broadside
+  template: marquee
+  image: images/profile.jpg
+  image-shape: rounded
+  links:
+  - icon: linkedin 
+    text: LinkedIn
+    href: https://www.linkedin.com/in/sebastiandunnett/
+  - icon: twitter 
+    text: Twitter
+    href: https://twitter.com/sebdunnett
+  - icon: instagram
+    href: https://www.instagram.com/sebdunnett
+    text: Instagram
+  - icon: github 
+    text: GitHub
+    href: https://github.com/sebdunnett
+  - icon: envelope 
+    text: Email
+    href: mailto:sebdunnett@gmail.com
+format:
+  html:
+    page-layout: full
+---
+
+Dr Seb Dunnett is a nature scientist and IPBES biodiversity expert with a PhD in global environmental change and significant experience helping organisations deliver sustainability objectives. Seb is currently working to ensure businesses contribute to global biodiversity goals, as well as advocating for nature in a just energy transition.

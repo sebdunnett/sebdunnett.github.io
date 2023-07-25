@@ -1,0 +1,72 @@
+/*-- scss:defaults --*/
+
+$theme: "litera" !default;
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+// Colors
+$navy-green: #283618;
+$sage-green: #606C38;
+$soft-yellow: #FEFAE0;
+$light-tan: #DDA15E;
+$tan: #BC6C25;
+$red: #bc4749;
+
+// Nav Bar
+$navbar-bg: $navy-green;
+$navbar-fg: $soft-yellow;
+$navbar-hl: $tan;
+
+// Body colors
+$body-bg: $soft-yellow;
+$body-color: $navy-green;
+$link-color: $red;
+$callout-color-note: $sage-green;
+
+
+.about-link-text { // button text size
+  color: $navy-green;
+}
+
+.about-links .bi.bi { // button text size
+  color: $navy-green;
+}
+
+.about-link:hover i.bi.bi, 
+.about-link:hover .about-link-text {
+  color: $tan;
+}
+
+.quarto-title-block .quarto-title-banner {
+  background: $light-tan;
+}
+
+a.quarto-grid-link {
+  color: $soft-yellow;
+}
+
+a.quarto-grid-link:hover {
+  color: $tan;
+}
+
+.quarto-grid-item.card-left.card {
+  background-color: $light-tan;
+}
+
+.quarto-grid-item .listing-categories .listing-category {
+    color: $sage-green !important;
+    border: solid 1px $sage-green !important;
+}
+
+.quarto-grid-item .card-attribution{
+  color: $sage-green !important;
+}
+
+.panel-caption, .figure-caption, figcaption {
+    color: $sage-green !important;
+}
+
+body:not(.floating) .nav-footer {
+    border-top: none !important;
+}
