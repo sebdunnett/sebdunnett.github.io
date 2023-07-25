@@ -23,12 +23,17 @@ website:
       - href: talks.qmd
         text: Talks
     right:
-      - icon: twitter
-        href: https://twitter.com/sebdunnett
+      #- icon: twitter
+      #  href: https://twitter.com/sebdunnett
       - icon: linkedin
         href: https://www.linkedin.com/in/sebastiandunnett/
-      - icon: instagram
-        href: https://www.instagram.com/sebdunnett
+      #- icon: instagram
+      #  href: https://www.instagram.com/sebdunnett
+      - icon: mastodon
+        href: https://mastodon.social/@sebdunnett
+        rel: me
+      - icon: square-filled
+        href: https://bsky.app/profile/sebdunnett.bsky.social
       - icon: github
         href: https://github.com/sebdunnett
       - icon: envelope

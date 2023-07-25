@@ -5,18 +5,19 @@ title-block-banner: true
 about:
   #jolla,trestles,solana,marquee,broadside
   template: marquee
-  image: images/profile.jpg
+  image: images/profile2.jpg
   image-shape: rounded
   links:
   - icon: linkedin 
     text: LinkedIn
     href: https://www.linkedin.com/in/sebastiandunnett/
-  - icon: twitter 
-    text: Twitter
-    href: https://twitter.com/sebdunnett
-  - icon: instagram
-    href: https://www.instagram.com/sebdunnett
-    text: Instagram
+  - icon: square-fill
+    text: Bluesky
+    href: https://bsky.app/profile/sebdunnett.bsky.social
+  - icon: mastodon
+    text: Mastodon
+    href: https://mastodon.social/@sebdunnett
+    rel: me
   - icon: github 
     text: GitHub
     href: https://github.com/sebdunnett
@@ -28,4 +29,8 @@ format:
     page-layout: full
 ---
 
-Dr Seb Dunnett is a nature scientist and IPBES biodiversity expert with a PhD in global environmental change and significant experience helping organisations deliver sustainability objectives. Seb is currently working to ensure businesses contribute to global biodiversity goals, as well as advocating for nature in a just energy transition.
+Dr Sebastian Dunnett is a nature scientist and IPBES biodiversity expert with a PhD in renewable energy and biodiversity and significant experience helping organisations deliver sustainability objectives. Seb is currently working to ensure businesses contribute to global biodiversity goals, as well as advocating for nature in a just energy transition.
+
+> *“A thing is right when it tends to preserve the integrity, stability and beauty of the biotic community. It is wrong when it tends otherwise.”*
+>
+>Aldo Leopold
