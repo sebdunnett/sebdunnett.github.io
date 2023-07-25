@@ -70,3 +70,9 @@ a.quarto-grid-link:hover {
 body:not(.floating) .nav-footer {
     border-top: none !important;
 }
+
+.blockquote {
+    color: $navy-green !important;
+    border-color: $tan;
+    text-align: center;
+}

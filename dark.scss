@@ -75,6 +75,7 @@ body:not(.floating) .nav-footer {
 }
 
 .blockquote {
-    color: #C9C6A5 !important;
-    border-color: #384060;
+    color: $background-colour !important;
+    border-color: $complementary-colour;
+    text-align: center;
 }
