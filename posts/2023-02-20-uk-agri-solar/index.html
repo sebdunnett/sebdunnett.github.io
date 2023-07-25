@@ -178,12 +178,12 @@ div.csl-indent {
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://mastodon.social/(sebdunnett?)" rel="" target=""><i class="bi bi-mastodon" role="img">
+    <a class="nav-link" href="https://mastodon.social/(sebdunnett?)" rel="me" target=""><i class="bi bi-mastodon" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://bsky.app/profile/sebdunnett.bsky.social" rel="" target=""><i class="bi bi-square-fill" role="img">
+    <a class="nav-link" href="https://bsky.app/profile/sebdunnett.bsky.social" rel="" target=""><i class="bi bi-square-filled" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -278,7 +278,7 @@ div.csl-indent {
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
@@ -329,12 +329,12 @@ Note
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">st_make_valid</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<section id="solar-in-the-uk" class="level1 page-columns page-full">
+<section id="solar-in-the-uk" class="level1">
 <h1>Solar in the UK</h1>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
 <p><img src="../../images/solar_farm.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption margin-caption">Solar farm in Rockbeare, Exeter. Photo by <a href="https://unsplash.com/@redzeppelin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Red Zeppelin</a> on <a href="https://unsplash.com/photos/UVGE-o757-g?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption>
+<figcaption class="figure-caption">Solar farm in Rockbeare, Exeter. Photo by <a href="https://unsplash.com/@redzeppelin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Red Zeppelin</a> on <a href="https://unsplash.com/photos/UVGE-o757-g?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption>
 </figure>
 </div>
 <p>Firstly, we need data for solar locations. Back in 2016 when I started my PhD, there were very little spatial data for renewable energy – one of the drivers for my first paper <span class="citation" data-cites="dunnettHarmonisedGlobalDatasets2020a">(<a href="#ref-dunnettHarmonisedGlobalDatasets2020a" role="doc-biblioref">Dunnett et al. 2020</a>)</span>; thankfully it’s not as bad now. I used data from a study that took a similar approach to ours, but with a much more detailed focus on the UK.</p>
@@ -360,10 +360,10 @@ Note
 </div>
 <p><span class="citation" data-cites="Stowell2020">Stowell et al. (<a href="#ref-Stowell2020" role="doc-biblioref">2020</a>)</span> produced point data with area as an attribute, as well as polygons; the difference between the two was only 2.901 km<sup>2</sup>. I ended up using areas calculated from the polygons. As most of this debate has centered on ground-mounted solar, I’ve filtered out any roof-mounted. This gave the percentage of land used for solar in the UK as a whopping <em>0.09697%</em>.</p>
 </section>
-<section id="agricultural-grading" class="level1 page-columns page-full">
+<section id="agricultural-grading" class="level1">
 <h1>Agricultural grading</h1>
 <p>So here’s the crux of the issue: agricultural land classification. 1 is best, 5 is worst. In practice, 3 is split into 3a and 3b, but I’m using data from Natural England that annoyingly doesn’t split 3 so we’ll have to make do.</p>
-<div class="cell page-columns page-full" data-hash="index_cache/html/unnamed-chunk-2_f6726d91a3f1391d0cdf9a3f9f23839b">
+<div class="cell" data-hash="index_cache/html/unnamed-chunk-2_f6726d91a3f1391d0cdf9a3f9f23839b">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>alc <span class="ot">=</span> <span class="fu">st_read</span>(<span class="st">"data/Provisional_Agricultural_Land_Classification_(ALC)_(England).geojson"</span>,</span>
@@ -385,11 +385,11 @@ Note
 <span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.title =</span> <span class="fu">element_text</span>(<span class="at">family=</span><span class="st">"mulish"</span>, <span class="at">size =</span> <span class="dv">30</span>),</span>
 <span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">family=</span><span class="st">"mulish"</span>, <span class="at">size =</span> <span class="dv">20</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output-display page-columns page-full">
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
 <p><img src="index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption class="figure-caption margin-caption">Distribution of agricultural land classification grades in England. Non-agricultural land covers golf course, sports pitches, and public and private parks.</figcaption>
+<figcaption class="figure-caption">Distribution of agricultural land classification grades in England. Non-agricultural land covers golf course, sports pitches, and public and private parks.</figcaption>
 </figure>
 </div>
 </div>
@@ -484,7 +484,7 @@ Note
 </div>
 <p>Ground-mounted solar infrastructure covers 0.163% of England so it does look like solar is slightly over-represented in higher agricultural classes compared to England on average (see table above), but this is likely exacerbated by obvious constraints such as the tiny percentage of ground-mounted solar in cities (<em>not</em> a surprising finding!). Regardless, these are still <em>tiny</em> proportions: the proportion in Grade 1 translates to 1 km<sup>2</sup> in 3,614!</p>
 </section>
-<section id="solar-in-development" class="level1 page-columns page-full">
+<section id="solar-in-development" class="level1">
 <h1>Solar in development</h1>
 <p>What about future solar developments? For this I had to dive back into the (terrible) Renewable Energy Planning Database (REPD). Serious BEIS, please, please sort it out. They have MW capacities but not areas so I used Dr Simon Evan’s, <a href="https://www.carbonbrief.org/">Carbon Brief</a>’s factchecker extraordinaire, conversion: ~25 acres (0.1 km<sup>2</sup> in normal units) per 5 MW.</p>
 <div class="cell">
@@ -545,7 +545,7 @@ Note
 </details>
 </div>
 <p>So <em>if</em> every single planned and under construction installation makes it to operation, and that’s a big if looking at the rates of application refusal/withdrawal etc. in the REPD, solar area in Grade 3 would increase from 0.00194% to 0.005128%.</p>
-<div class="cell page-columns page-full">
+<div class="cell">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(units)</span>
@@ -576,11 +576,11 @@ Note
 <span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
 <span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_discrete</span>(<span class="at">limits=</span>rev)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output-display page-columns page-full">
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
 <p><img src="index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption class="figure-caption margin-caption">Solar installations in agricultural grades by operational phase as reported in the REPD.</figcaption>
+<figcaption class="figure-caption">Solar installations in agricultural grades by operational phase as reported in the REPD.</figcaption>
 </figure>
 </div>
 </div>
