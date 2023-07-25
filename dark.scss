@@ -6,66 +6,75 @@ $theme: "litera" !default;
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
 
 // Colors
-$navy-green: #283618;
-$sage-green: #606C38;
-$soft-yellow: #FEFAE0;
-$light-tan: #DDA15E;
-$tan: #BC6C25;
-$red: #bc4749;
+$base-colour: #2B2B2B;
+$complementary-colour: #384060;
+$background-colour: #C9C6A5;
+$accent-colour: #DDA15E;
+$highlight-colour: #8C3335;
 
 // Nav Bar
-$navbar-bg: $navy-green;
-$navbar-fg: $soft-yellow;
-$navbar-hl: $tan;
+$navbar-bg: $base-colour;
+$navbar-fg: $background-colour;
+$navbar-hl: $accent-colour;
 
 // Body colors
-$body-bg: $navy-green;
-$body-color: $soft-yellow;
-$link-color: $red;
-$callout-color-note: $sage-green;
+$body-bg: $base-colour;
+$body-color: $background-colour;
+$link-color: $highlight-colour;
+$callout-color-note: $complementary-colour;
 
 .about-link-text { // button text size
-  color: $soft-yellow;
+  color: $background-colour;
 }
 
 .about-links .bi.bi { // button text size
-  color: $soft-yellow;
+  color: $background-colour;
 }
 
 .about-link:hover i.bi.bi, 
 .about-link:hover .about-link-text {
-  color: $tan;
+  color: $accent-colour;
 }
 
 .quarto-title-block .quarto-title-banner {
-  background: $sage-green;
+  background: $complementary-colour;
 }
 
 a.quarto-grid-link {
-  color: $navy-green;
+  color: $background-colour;
 }
 
 a.quarto-grid-link:hover {
-  color: $tan;
+  color: $accent-colour;
 }
 
 .quarto-grid-item.card-left.card {
-  background-color: $sage-green;
+  background-color: $complementary-colour;
 }
 
 .quarto-grid-item .listing-categories .listing-category {
-    color: $soft-yellow !important;
-    border: solid 1px $tan !important;
+    color: $background-colour !important;
+    border: solid 1px $accent-colour !important;
 }
 
 .quarto-grid-item .card-attribution{
-  color: $soft-yellow !important;
+  color: $background-colour !important;
+}
+
+.quarto-grid-item .listing-author,
+.quarto-grid-item .listing-date {
+  color: $base-colour;
 }
 
 .panel-caption, .figure-caption, figcaption {
-    color: $tan !important;
+    color: $accent-colour !important;
 }
 
 body:not(.floating) .nav-footer {
     border-top: none !important;
+}
+
+.blockquote {
+    color: #C9C6A5 !important;
+    border-color: #384060;
 }
