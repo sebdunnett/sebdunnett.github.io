@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2023-06-26">
 <meta name="description" content="Revisiting my master’s dissertation ten years on">
 
-<title>Biodiversity offsets pt 1: an introduction | Sebastian Dunnett</title>
+<title>Biodiversity offsets pt 1: an introduction | Biodiversity offsets pt 1: an introduction</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,14 +20,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -41,8 +42,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -82,21 +82,22 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
 
-<meta property="og:title" content="Biodiversity offsets pt 1: an introduction | Sebastian Dunnett">
-<meta property="og:description" content="Revisiting my master's dissertation ten years on">
-<meta property="og:image" content="https://sebdunnett.com/images\mitigation_hierarchy.png">
+<meta property="og:title" content="Biodiversity offsets pt 1: an introduction | Biodiversity offsets pt 1: an introduction">
+<meta property="og:description" content="Revisiting my master’s dissertation ten years on">
+<meta property="og:image" content="https://sebdunnett.com/images/mitigation_hierarchy.png">
 <meta property="og:site-name" content="Sebastian Dunnett">
 <meta property="og:locale" content="en_GB">
 <meta property="og:image:height" content="338">
 <meta property="og:image:width" content="484">
-<meta name="twitter:title" content="Biodiversity offsets pt 1: an introduction | Sebastian Dunnett">
-<meta name="twitter:description" content="Revisiting my master's dissertation ten years on">
-<meta name="twitter:image" content="https://sebdunnett.com/images\mitigation_hierarchy.png">
+<meta name="twitter:title" content="Biodiversity offsets pt 1: an introduction | Biodiversity offsets pt 1: an introduction">
+<meta name="twitter:description" content="Revisiting my master’s dissertation ten years on">
+<meta name="twitter:image" content="https://sebdunnett.com/images/mitigation_hierarchy.png">
 <meta name="twitter:creator" content="@sebdunnett">
 <meta name="twitter:image-height" content="338">
 <meta name="twitter:image-width" content="484">
@@ -114,74 +115,74 @@ div.csl-indent {
     <span class="navbar-title">Sebastian Dunnett</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html">
+    <a class="nav-link" href="../../posts.html" rel="" target="">
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html">
+    <a class="nav-link" href="../../publications.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../talks.html">
+    <a class="nav-link" href="../../talks.html" rel="" target="">
  <span class="menu-text">Talks</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/sebastiandunnett/"><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/sebastiandunnett/" rel="" target=""><i class="bi bi-linkedin" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://mastodon.social/@sebdunnett"><i class="bi bi-mastodon" role="img">
+    <a class="nav-link" href="https://mastodon.social/(sebdunnett?)" rel="" target=""><i class="bi bi-mastodon" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://bsky.app/profile/sebdunnett.bsky.social"><i class="bi bi-square-fill" role="img">
+    <a class="nav-link" href="https://bsky.app/profile/sebdunnett.bsky.social" rel="" target=""><i class="bi bi-square-fill" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/sebdunnett"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/sebdunnett" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:sebdunnett@gmail.com"><i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="mailto:sebdunnett@gmail.com" rel="" target=""><i class="bi bi-envelope" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cv" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cv" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">CV</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-cv">    
         <li>
-    <a class="dropdown-item" href="../../resources/SDunnett_CV.pdf">
+    <a class="dropdown-item" href="../../resources/SDunnett_CV.pdf" rel="" target="">
  <span class="dropdown-text">One page</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../resources/SDunnett_CV_academic.pdf">
+    <a class="dropdown-item" href="../../resources/SDunnett_CV_academic.pdf" rel="" target="">
  <span class="dropdown-text">Academic</span></a>
   </li>  
     </ul>
   </li>
 </ul>
-              <div class="quarto-toggle-container">
-                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-              </div>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -209,7 +210,7 @@ div.csl-indent {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Seb Dunnett <a href="https://orcid.org/0000-0002-5300-3075" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+               <p><a href="https://sebdunnett.com/">Seb Dunnett</a> <a href="https://orcid.org/0000-0002-5300-3075" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
             </div>
     </div>
       
@@ -267,7 +268,7 @@ div.csl-indent {
 <li>Rehabilitation/Restoration: Efforts to restore degraded ecosystems or rehabilitate cleared ecosystems after exposure to impacts that could not be completely avoided or minimized.</li>
 <li>Offset: Measures undertaken to compensate for any residual significant adverse impacts that could not be avoided, minimized, rehabilitated, or restored. The goal is to achieve no net loss or even a net gain of biodiversity. Offsets can take the form of positive management interventions, such as restoring degraded habitats or protecting areas facing imminent or projected biodiversity loss.</li>
 </ol>
-<div class="panel-tabset">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">2012</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">2023</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
@@ -295,7 +296,7 @@ The new and improved mitigation hierarchy. Source: Forest Trends.
 <div id="fig-global-offsets" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="../../images/world_offsets.webp" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;1: <strong>a</strong>, Green shading shows the ratio of the area occupied by biodiversity offsets in each country to the total area of that country (<em>n</em> = 12,983 offset projects in 37 countries). Grey shading shows the countries with relevant policies, but where no evidence of offset implementation was found (<em>n</em> = 37). <strong>b</strong>, Locations of all documented biodiversity offset locations (<em>n</em> = 3,416; black dots) and known associated development projects (<em>n</em> = 247; red dots). Source: <span class="citation" data-cites="bullGlobalExtentBiodiversity2018">Bull and Strange (<a href="#ref-bullGlobalExtentBiodiversity2018" role="doc-biblioref">2018</a>)</span>.</figcaption><p></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;1: <strong>a</strong>, Green shading shows the ratio of the area occupied by biodiversity offsets in each country to the total area of that country (<em>n</em> = 12,983 offset projects in 37 countries). Grey shading shows the countries with relevant policies, but where no evidence of offset implementation was found (<em>n</em> = 37). <strong>b</strong>, Locations of all documented biodiversity offset locations (<em>n</em> = 3,416; black dots) and known associated development projects (<em>n</em> = 247; red dots). Source: <span class="citation" data-cites="bullGlobalExtentBiodiversity2018">Bull and Strange (<a href="#ref-bullGlobalExtentBiodiversity2018" role="doc-biblioref">2018</a>)</span>.</figcaption>
 </figure>
 </div>
 <p>Biodiversity offset mechanisms can vary in their approach. <a href="#fig-global-offsets">Figure&nbsp;1</a> illustrates three examples of offsetting mechanisms, highlighting their relative strengths and weaknesses <span class="citation" data-cites="madsenStateBiodiversityMarkets2010">(<a href="#ref-madsenStateBiodiversityMarkets2010" role="doc-biblioref">Madsen, Carroll, and Moore Brands 2010</a>)</span>. These mechanisms provide a range of options for achieving biodiversity conservation goals through compensation.</p>
@@ -312,37 +313,37 @@ The new and improved mitigation hierarchy. Source: Forest Trends.
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-bullGlobalExtentBiodiversity2018" class="csl-entry" role="doc-biblioentry">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bullGlobalExtentBiodiversity2018" class="csl-entry" role="listitem">
 Bull, Joseph William, and Niels Strange. 2018. <span>“The Global Extent of Biodiversity Offset Implementation Under No Net Loss Policies.”</span> <em>Nature Sustainability</em> 1 (12): 790–98. <a href="https://doi.org/10.1038/s41893-018-0176-z">https://doi.org/10.1038/s41893-018-0176-z</a>.
 </div>
-<div id="ref-businessandbiodiversityoffsetsprogrammebbopGuidanceNotesStandard2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-businessandbiodiversityoffsetsprogrammebbopGuidanceNotesStandard2012" class="csl-entry" role="listitem">
 Business and Biodiversity Offsets Programme (BBOP). 2012. <span>“Guidance <span>Notes</span> to the <span>Standard</span> on <span>Biodiversity Offsets</span>.”</span> <span>Washington, D.C.</span>: <span>BBOP</span>.
 </div>
-<div id="ref-eftecUseMarketbasedInstruments2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-eftecUseMarketbasedInstruments2010" class="csl-entry" role="listitem">
 eftec, and IEEP. 2010. <span>“The Use of Market-Based Instruments for Biodiversity Protection Case of Habitat Banking <span>Technical Report</span>.”</span>
 </div>
-<div id="ref-lawtonMakingSpaceNature2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-lawtonMakingSpaceNature2010" class="csl-entry" role="listitem">
 Lawton, J. H., P. N. M. Brotherton, V. K. Brown, C. Elphick, A. H. Fitter, J. Forshaw, R. W. Haddow, et al. 2010. <span>“Making <span>Space</span> for <span>Nature</span>: A Review of <span>England</span>’s Wildlife Sites and Ecological Network. <span>Report</span> to <span>Defra</span>.”</span>
 </div>
-<div id="ref-madsenStateBiodiversityMarkets2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-madsenStateBiodiversityMarkets2010" class="csl-entry" role="listitem">
 Madsen, Becca, Nathaniel Carroll, and Kelly Moore Brands. 2010. <span>“State of <span>Biodiversity Markets Report</span>: <span>Offset</span> and <span>Compensation Programs Worldwide</span>.”</span>
 </div>
-<div id="ref-teebEconomicsEcosystemsBiodiversity2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-teebEconomicsEcosystemsBiodiversity2010" class="csl-entry" role="listitem">
 TEEB, ed. 2010. <em>The <span>Economics</span> of <span>Ecosystems</span> and <span>Biodiversity</span>: <span>Mainstreaming</span> the <span>Economics</span> of <span>Nature</span>: <span>A</span> Synthesis of the Approach, Conclusions and Recommendations of <span>TEEB</span></em>. The Economics of Ecosystems &amp; Biodiversity.
 </div>
-<div id="ref-treweekScopingStudyDesign2009" class="csl-entry" role="doc-biblioentry">
+<div id="ref-treweekScopingStudyDesign2009" class="csl-entry" role="listitem">
 Treweek, Jo. 2009. <span>“Scoping Study for the Design and Use of Biodiversity Offsets in an <span>English Context</span>.”</span>
 </div>
 </div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{dunnett2023,
-  author = {Seb Dunnett},
+  author = {Dunnett, Seb},
   title = {Biodiversity Offsets Pt 1: An Introduction},
   date = {2023-06-26},
   url = {https://sebdunnett.com/posts/2023-06-26-offsets-pt1/},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-dunnett2023" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Seb Dunnett. 2023. <span>“Biodiversity Offsets Pt 1: An
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-dunnett2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+Dunnett, Seb. 2023. <span>“Biodiversity Offsets Pt 1: An
 Introduction.”</span> June 26, 2023. <a href="https://sebdunnett.com/posts/2023-06-26-offsets-pt1/">https://sebdunnett.com/posts/2023-06-26-offsets-pt1/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -487,9 +488,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -554,6 +569,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -596,7 +697,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center"><span class="faux-block"><i class="fa-brands fa-creative-commons" title="copyright" aria-label="creative-commons"></i> 2023 Sebastian Dunnett</span></div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center"><span class="faux-block"><i class="fa-brands fa-creative-commons" title="copyright" aria-label="creative-commons"></i> 2023 Sebastian Dunnett</span></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 
