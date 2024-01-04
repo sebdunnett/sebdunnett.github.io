@@ -40,7 +40,7 @@ website:
             href: resources/SDunnett_CV_academic.pdf
   page-footer:
     center: |
-      <span class="faux-block">{{< fa brands creative-commons title="copyright" >}} 2023 Sebastian Dunnett</span>
+      <span class="faux-block">{{< fa brands creative-commons title="copyright" >}} 2024 Sebastian Dunnett</span>
       
 format:
   html:
